@@ -1,6 +1,0 @@
-[submodule "kicad_libs"]
-	path = kicad_libs
-	url = git@github.com:igorwolfs/kicad_libs.git
-[submodule "acoustic-processing-board"]
-	path = acoustic-processing-board
-	url = git@github.com:igorwolfs/acoustic-processing-board.git
