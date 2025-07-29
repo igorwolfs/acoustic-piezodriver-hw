@@ -5,6 +5,131 @@
 	(uuid "94cb090f-214e-44cc-b8ed-ae50ff29d2bf")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "iw-connector:WJ128V-5.0-3P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -467,6 +592,12 @@
 		(uuid "966e81db-0f17-4399-8830-347f6249d45c")
 	)
 	(junction
+		(at 204.47 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b142537c-1152-4d9c-b478-93cf238abeaa")
+	)
+	(junction
 		(at 213.36 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -484,7 +615,7 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 71.12) (xy 151.13 71.12)
+			(xy 139.7 60.96) (xy 151.13 60.96)
 		)
 		(stroke
 			(width 0)
@@ -494,7 +625,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 106.68) (xy 217.17 106.68)
+			(xy 214.63 106.68) (xy 218.44 106.68)
 		)
 		(stroke
 			(width 0)
@@ -504,7 +635,17 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 102.87) (xy 214.63 106.68)
+			(xy 204.47 102.87) (xy 204.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311dbffb-cd93-4443-b115-7a7a65778eb3")
+	)
+	(wire
+		(pts
+			(xy 214.63 100.33) (xy 214.63 106.68)
 		)
 		(stroke
 			(width 0)
@@ -514,7 +655,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 111.76) (xy 217.17 111.76)
+			(xy 213.36 111.76) (xy 218.44 111.76)
 		)
 		(stroke
 			(width 0)
@@ -524,7 +665,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 106.68) (xy 214.63 106.68)
+			(xy 198.12 106.68) (xy 204.47 106.68)
 		)
 		(stroke
 			(width 0)
@@ -544,7 +685,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 109.22) (xy 217.17 109.22)
+			(xy 213.36 109.22) (xy 218.44 109.22)
 		)
 		(stroke
 			(width 0)
@@ -554,7 +695,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 59.69) (xy 151.13 59.69)
+			(xy 204.47 106.68) (xy 207.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5af560-0324-4bbd-8951-b1ffefd9c978")
+	)
+	(wire
+		(pts
+			(xy 139.7 55.88) (xy 151.13 55.88)
 		)
 		(stroke
 			(width 0)
@@ -584,6 +735,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 106.68) (xy 214.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e153d18a-356a-4d56-98d5-005683623bbb")
+	)
+	(wire
+		(pts
 			(xy 139.7 50.8) (xy 151.13 50.8)
 		)
 		(stroke
@@ -592,18 +753,44 @@
 		)
 		(uuid "fa665837-ca22-408a-8008-e21f75aaf6da")
 	)
+	(label "BATT_P"
+		(at 214.63 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74e2b6f5-678d-4173-83dc-f5c945544cb5")
+	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 214.63 102.87 0)
+		(lib_id "Device:R_Small")
+		(at 209.55 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4fa83dec-f6c3-4f0b-94c4-b7148d44c276")
-		(property "Reference" "#PWR0302"
-			(at 214.63 106.68 0)
+		(uuid "13d7a700-c187-4e70-a0ea-ab997200465f")
+		(property "Reference" "R101"
+			(at 209.55 101.6 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2m"
+			(at 209.55 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 209.55 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -611,16 +798,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 214.63 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 102.87 0)
+		(property "Datasheet" "~"
+			(at 209.55 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,8 +807,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 214.63 102.87 0)
+		(property "Description" "2W, 2mOhm current sense"
+			(at 209.55 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,8 +816,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 214.63 102.87 0)
+		(property "LPN" "C160590"
+			(at 209.55 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RLP25FEER002"
+			(at 209.55 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -647,12 +835,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbd76457-82f0-41ce-86f3-d7a19daea573")
+			(uuid "879dc147-22e8-4ec3-b80c-8cddf77817c1")
+		)
+		(pin "2"
+			(uuid "88c14df6-4932-4255-bc58-ba09f593bd22")
 		)
 		(instances
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf"
-					(reference "#PWR0302")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -660,7 +851,7 @@
 	)
 	(symbol
 		(lib_id "iw-connector:WJ128V-5.0-3P")
-		(at 222.25 109.22 270)
+		(at 223.52 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -669,7 +860,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ab821cb-edbb-4c98-847c-b44107dd9101")
 		(property "Reference" "P301"
-			(at 228.6 107.9499 90)
+			(at 229.87 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -678,7 +869,7 @@
 			)
 		)
 		(property "Value" "WJ128V-5.0-3P"
-			(at 228.6 110.4899 90)
+			(at 229.87 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -687,7 +878,7 @@
 			)
 		)
 		(property "Footprint" "iw-connector:WJ128V-5.0-3P"
-			(at 209.55 109.22 0)
+			(at 210.82 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,7 +887,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Terminal-Blocks_WJ128V-5-0-3P_C8270.html"
-			(at 207.01 109.22 0)
+			(at 208.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,7 +896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 109.22 0)
+			(at 223.52 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +905,7 @@
 			)
 		)
 		(property "LPN" "C8270"
-			(at 204.47 109.22 0)
+			(at 205.74 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +914,7 @@
 			)
 		)
 		(property "MPN" "WJ128V-5.0-3P "
-			(at 222.25 109.22 90)
+			(at 223.52 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,7 +1008,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 208.28 106.68 0)
+		(at 198.12 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -826,7 +1017,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaefa132-89b5-4635-905a-86d1f2cb711b")
 		(property "Reference" "#FLG0303"
-			(at 208.28 104.775 0)
+			(at 198.12 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -835,7 +1026,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 208.28 101.6 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,7 +1034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 106.68 0)
+			(at 198.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -852,7 +1043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 106.68 0)
+			(at 198.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +1052,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 208.28 106.68 0)
+			(at 198.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,6 +1067,72 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf"
 					(reference "#FLG0303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 204.47 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa8fcc23-dce7-4592-a2de-828b410a9b80")
+		(property "Reference" "#PWR0101"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 204.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "610d765f-5675-48dd-827b-6fae285911dd")
+		)
+		(instances
+			(project "acoustic-piezodriver-board"
+				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -915,18 +1172,8 @@
 			)
 		)
 		(pin "PSEPIC_EN" input
-			(at 139.7 59.69 0)
+			(at 139.7 55.88 0)
 			(uuid "11a782cc-0359-4450-90d1-a6fab4319d1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PWM{INV_PWM}" input
-			(at 139.7 71.12 0)
-			(uuid "57cf3d45-821a-4b79-82dd-42eab2889399")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,6 +1184,36 @@
 		(pin "PBOOST_EN" input
 			(at 139.7 50.8 0)
 			(uuid "cb25233e-3425-4935-9b3d-6a9b4cb6a073")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM{INV_PWM}" bidirectional
+			(at 139.7 60.96 0)
+			(uuid "f0f8bd2e-d1af-4fae-9b6c-084fa890c576")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDC_P" bidirectional
+			(at 139.7 66.04 0)
+			(uuid "0612fc2b-0817-4493-a7b0-cf69e2969130")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDC_N" bidirectional
+			(at 139.7 69.85 0)
+			(uuid "aad0c799-2e31-4031-928b-0cd98cb88d3d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,7 +1325,7 @@
 			)
 		)
 		(pin "PWM{INV_PWM}" output
-			(at 151.13 71.12 180)
+			(at 151.13 60.96 180)
 			(uuid "26d550fd-d453-4ecf-96e3-53016bc1933d")
 			(effects
 				(font
@@ -1058,7 +1335,7 @@
 			)
 		)
 		(pin "PSEPIC_EN" output
-			(at 151.13 59.69 180)
+			(at 151.13 55.88 180)
 			(uuid "b630bb94-2454-4486-8977-b54c12852bc6")
 			(effects
 				(font

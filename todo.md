@@ -29,9 +29,11 @@
 - When you want to use a voltage unreachable by your power supply (e.g.: 40 V)
 	- Make sure to use a boost converter, and set the input voltage between 10-20 Volts (to limit the stress on the passives)
 
-
-# NEXT
-- Add the additional power-converter-enabled-connector
-	- Instead of 2x4 make it 2x7, 2 times
-- Add a place for ferrites to the problematic power lines
-- Add temperatrue measurement sensors with data trigger lines
+# ADC Measurement
+- Add a 4-channel ADC 
+	- (2 inputs) Differential channel to measure current going to the piezo
+	- 1 input: Current going to the ADC
+	- 1 input: Total voltage (use a resistive divider)
+		- Based on this one can activate SEPICs
+	- 1 input: Total current draw (use a resistor)
+		- 

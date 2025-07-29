@@ -5,6 +5,305 @@
 	(uuid "3e23708c-435d-487e-bbe5-d9b4bcdc22df")
 	(paper "A3")
 	(lib_symbols
+		(symbol "AO3400A_1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3400A_1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3400A_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -1126,6 +1425,7 @@
 		)
 		(symbol "Transistor_FET:AO3400A"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1341,7 +1641,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -2586,12 +2886,6 @@
 		(uuid "e36687e5-cc79-44dd-984f-d0b667ed6ccf")
 	)
 	(junction
-		(at 360.68 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "008f001e-e831-4f81-a6f6-f71ea13aeedb")
-	)
-	(junction
 		(at 237.49 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2850,6 +3144,18 @@
 		(uuid "b057dd49-d92f-4a32-ada8-afecd0ee0a2a")
 	)
 	(junction
+		(at 260.35 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b20ca0bc-625a-4618-a0c3-a03e50fb7027")
+	)
+	(junction
+		(at 378.46 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7fe66f0-5638-433e-a1b1-078e92ac0c33")
+	)
+	(junction
 		(at 294.64 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2914,6 +3220,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7d464bd-b4f1-4989-ae22-86c0259a92f0")
+	)
+	(junction
+		(at 265.43 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d95f46ea-c51e-47fc-bd00-20e46f4e302c")
 	)
 	(junction
 		(at 323.85 220.98)
@@ -3026,6 +3338,26 @@
 			(type default)
 		)
 		(uuid "04556303-2ca5-4a03-aaa2-dc1c6ddf771b")
+	)
+	(wire
+		(pts
+			(xy 261.62 71.12) (xy 265.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04db9067-7d74-4849-8ae4-db1aba0d2fbd")
+	)
+	(wire
+		(pts
+			(xy 378.46 185.42) (xy 378.46 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051f1ccb-1266-4e72-8f04-a9c556cfe93e")
 	)
 	(wire
 		(pts
@@ -3349,7 +3681,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 80.01) (xy 269.24 80.01)
+			(xy 265.43 80.01) (xy 269.24 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3379,7 +3711,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 77.47) (xy 266.7 80.01)
+			(xy 265.43 68.58) (xy 265.43 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3436,6 +3768,16 @@
 			(type default)
 		)
 		(uuid "2d1c91f1-8e22-4569-aae8-a8b47a1e29f7")
+	)
+	(wire
+		(pts
+			(xy 378.46 189.23) (xy 384.81 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d03bec-fb73-405b-8f57-8f64193c8980")
 	)
 	(wire
 		(pts
@@ -3649,6 +3991,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 189.23) (xy 374.65 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d747589-da85-432b-a2f6-4f86eb046a72")
+	)
+	(wire
+		(pts
 			(xy 325.12 100.33) (xy 325.12 102.87)
 		)
 		(stroke
@@ -3816,16 +4168,6 @@
 			(type default)
 		)
 		(uuid "5d395d50-1806-423d-a7d9-6961e8fb10d0")
-	)
-	(wire
-		(pts
-			(xy 384.81 189.23) (xy 374.65 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d985f3a-430a-4a3b-a55c-3344b4b85940")
 	)
 	(wire
 		(pts
@@ -4079,13 +4421,13 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 189.23) (xy 365.76 189.23)
+			(xy 255.27 194.31) (xy 255.27 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75a0cb7b-0c1b-4e50-9fe0-a3a8ba323117")
+		(uuid "742c3b5d-88a3-41b9-9f81-a6f91b4198c6")
 	)
 	(wire
 		(pts
@@ -4139,13 +4481,23 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 179.07) (xy 66.04 179.07)
+			(xy 57.15 179.07) (xy 64.77 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "78e6b18d-5063-4d42-a125-f83c4459478a")
+	)
+	(wire
+		(pts
+			(xy 261.62 71.12) (xy 261.62 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7977f7b8-40de-4d0b-a7ad-a3aa0257a208")
 	)
 	(wire
 		(pts
@@ -4176,6 +4528,16 @@
 			(type default)
 		)
 		(uuid "7e23bb18-654b-4610-864a-dc072fa5664e")
+	)
+	(wire
+		(pts
+			(xy 260.35 187.96) (xy 260.35 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7faaf3ca-a732-4e29-862e-81bccb2882e2")
 	)
 	(wire
 		(pts
@@ -4289,7 +4651,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 181.61) (xy 254 195.58)
+			(xy 260.35 184.15) (xy 260.35 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4316,6 +4678,16 @@
 			(type default)
 		)
 		(uuid "8bde3b08-8332-41a8-a75a-afb95f6f6d81")
+	)
+	(wire
+		(pts
+			(xy 374.65 189.23) (xy 378.46 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca25a84-cf4e-4cdc-b89f-c939fc0024c2")
 	)
 	(wire
 		(pts
@@ -4389,6 +4761,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 80.01) (xy 261.62 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93eee2f7-7ab2-4f02-b6e0-888cf620eb07")
+	)
+	(wire
+		(pts
 			(xy 298.45 177.8) (xy 298.45 176.53)
 		)
 		(stroke
@@ -4439,13 +4821,13 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 184.15) (xy 364.49 184.15)
+			(xy 379.73 185.42) (xy 378.46 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a073003-51a0-4617-b731-4af068e239b8")
+		(uuid "9703b168-6d79-4a60-9c0e-69d425ed6f5e")
 	)
 	(wire
 		(pts
@@ -4609,6 +4991,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 71.12) (xy 265.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3a1b1a-79a2-4a43-bcbd-cb33aa391314")
+	)
+	(wire
+		(pts
 			(xy 313.69 77.47) (xy 313.69 80.01)
 		)
 		(stroke
@@ -4709,7 +5101,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 181.61) (xy 238.76 185.42)
+			(xy 238.76 189.23) (xy 238.76 191.77)
 		)
 		(stroke
 			(width 0)
@@ -4969,7 +5361,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 190.5) (xy 238.76 200.66)
+			(xy 238.76 196.85) (xy 238.76 200.66)
 		)
 		(stroke
 			(width 0)
@@ -5059,7 +5451,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 195.58) (xy 267.97 195.58)
+			(xy 260.35 195.58) (xy 267.97 195.58)
 		)
 		(stroke
 			(width 0)
@@ -5289,6 +5681,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 187.96) (xy 260.35 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f471eecd-4c43-4e4f-9b18-7bced9cb751d")
+	)
+	(wire
+		(pts
 			(xy 279.4 96.52) (xy 279.4 95.25)
 		)
 		(stroke
@@ -5328,6 +5730,28 @@
 		)
 		(uuid "09cd21e6-ecd4-4687-b76f-6664a1224745")
 	)
+	(hierarchical_label "VDC_P"
+		(shape bidirectional)
+		(at 64.77 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e869ade-afe0-488b-9b2f-c0425994787e")
+	)
+	(hierarchical_label "VDC_P"
+		(shape bidirectional)
+		(at 379.73 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "391d9fcf-dfb6-48fb-a600-93dd3b17da30")
+	)
 	(hierarchical_label "10V"
 		(shape bidirectional)
 		(at 378.46 60.96 0)
@@ -5338,28 +5762,6 @@
 			(justify left)
 		)
 		(uuid "42e9cb3c-79d4-45c2-8d03-3b735a188915")
-	)
-	(hierarchical_label "VDC"
-		(shape bidirectional)
-		(at 66.04 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "556f24f4-25ef-4170-b48c-0d8e8daa2a2d")
-	)
-	(hierarchical_label "VDC"
-		(shape bidirectional)
-		(at 364.49 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ae8b79e2-db24-4ed4-b4dc-d8b05bf2a5a3")
 	)
 	(hierarchical_label "10V"
 		(shape bidirectional)
@@ -5613,6 +6015,7 @@
 		)
 	)
 	(symbol
+		(lib_name "AO3400A_1")
 		(lib_id "Transistor_FET:AO3400A")
 		(at 228.6 96.52 0)
 		(unit 1)
@@ -6790,6 +7193,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 255.27 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29d7aba1-1799-47ed-9659-e4daf6f9fb7f")
+		(property "Reference" "#PWR0504"
+			(at 255.27 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.444 196.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eb095a8-4c78-4936-a90b-233fbcee4d23")
+		)
+		(instances
+			(project "acoustic-piezodriver-board"
+				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
+					(reference "#PWR0504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 353.06 100.33 0)
 		(unit 1)
@@ -7010,7 +7478,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 266.7 77.47 0)
+		(at 265.43 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7019,7 +7487,7 @@
 		(fields_autoplaced yes)
 		(uuid "3244e47d-062e-4b5c-b87f-afc19f4c12b9")
 		(property "Reference" "#PWR0509"
-			(at 266.7 81.28 0)
+			(at 265.43 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +7496,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 266.7 72.39 0)
+			(at 265.43 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 77.47 0)
+			(at 265.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 77.47 0)
+			(at 265.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7522,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 266.7 77.47 0)
+			(at 265.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7294,7 +7762,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 238.76 187.96 0)
+		(at 238.76 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7302,7 +7770,7 @@
 		(dnp no)
 		(uuid "37220880-2a10-4be6-a54a-11e9caa8798b")
 		(property "Reference" "R511"
-			(at 233.172 186.944 0)
+			(at 233.172 193.294 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7311,7 +7779,7 @@
 			)
 		)
 		(property "Value" "27k"
-			(at 233.172 189.484 0)
+			(at 233.172 195.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7788,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 238.76 187.96 0)
+			(at 238.76 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +7797,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706251506339840"
-			(at 238.76 187.96 0)
+			(at 238.76 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7806,7 @@
 			)
 		)
 		(property "Description" "+1%, 0.1W"
-			(at 238.76 187.96 0)
+			(at 238.76 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7815,7 @@
 			)
 		)
 		(property "LPN" "C22967"
-			(at 238.76 187.96 0)
+			(at 238.76 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7824,7 @@
 			)
 		)
 		(property "MPN" "0603WAF2702T5E"
-			(at 238.76 187.96 0)
+			(at 238.76 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,6 +8735,94 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
 					(reference "C516")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 255.27 190.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59ad92d2-b3e3-452f-9cb5-0d8f97fb3f8d")
+		(property "Reference" "C524"
+			(at 258.064 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 251.968 189.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 255.27 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8603345729432014848"
+			(at 255.27 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 255.27 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LPN" "C307331"
+			(at 255.27 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 255.27 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5343be7b-3bcd-40b8-adc0-4040c5be62ab")
+		)
+		(pin "1"
+			(uuid "93089e57-3b5e-4933-804b-a3a1844bc743")
+		)
+		(instances
+			(project "acoustic-piezodriver-board"
+				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
+					(reference "C524")
 					(unit 1)
 				)
 			)
@@ -9952,6 +10508,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 261.62 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88eff2c1-253b-420e-b7cf-91c608112acd")
+		(property "Reference" "#PWR0501"
+			(at 261.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.414 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7861c24-7cc5-4f92-8c87-cbf26c71f1e7")
+		)
+		(instances
+			(project "acoustic-piezodriver-board"
+				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
+					(reference "#PWR0501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 278.13 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10714,7 +11335,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 238.76 181.61 0)
+		(at 238.76 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10723,7 +11344,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0c6050a-cd99-45ad-b71f-606183a73010")
 		(property "Reference" "#PWR0522"
-			(at 238.76 185.42 0)
+			(at 238.76 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,7 +11353,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 238.76 176.53 0)
+			(at 238.76 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10740,7 +11361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 181.61 0)
+			(at 238.76 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10749,7 +11370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 181.61 0)
+			(at 238.76 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10758,7 +11379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 238.76 181.61 0)
+			(at 238.76 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10952,7 +11573,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 254 181.61 0)
+		(at 260.35 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10961,7 +11582,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7fe4374-6bf8-4e03-aaa5-0303df8fd990")
 		(property "Reference" "#PWR0523"
-			(at 254 185.42 0)
+			(at 260.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10970,7 +11591,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 254 176.53 0)
+			(at 260.35 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10978,7 +11599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 181.61 0)
+			(at 260.35 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10987,7 +11608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 181.61 0)
+			(at 260.35 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,7 +11617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 254 181.61 0)
+			(at 260.35 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11316,6 +11937,94 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
 					(reference "D501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 261.62 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b175606d-7efe-4329-8967-19a63e2b5037")
+		(property "Reference" "C523"
+			(at 264.414 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 258.318 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8603345729432014848"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LPN" "C307331"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8c2cc38-7a52-4618-8a00-74e12a31707e")
+		)
+		(pin "1"
+			(uuid "c2cfe14b-cebc-4dfb-ac22-f81305191d6a")
+		)
+		(instances
+			(project "acoustic-piezodriver-board"
+				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
+					(reference "C523")
 					(unit 1)
 				)
 			)
