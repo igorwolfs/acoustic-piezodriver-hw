@@ -2755,7 +2755,7 @@
 	)
 	(text "DC-DC (SEPIC) VBAT -> 10 V\nCapacitance datasheet recommendations\n- Input capacitance (10-20 uF)\n- Output capacitance (100 uF) "
 		(exclude_from_sim no)
-		(at 334.772 35.306 0)
+		(at 349.758 28.448 0)
 		(effects
 			(font
 				(size 1.27 1.27)
