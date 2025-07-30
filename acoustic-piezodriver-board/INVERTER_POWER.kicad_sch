@@ -5741,7 +5741,7 @@
 		)
 		(uuid "0e869ade-afe0-488b-9b2f-c0425994787e")
 	)
-	(hierarchical_label "VDC_P"
+	(hierarchical_label "VINV_P"
 		(shape bidirectional)
 		(at 379.73 185.42 0)
 		(effects
