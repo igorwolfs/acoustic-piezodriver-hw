@@ -6805,6 +6805,24 @@
 				(hide yes)
 			)
 		)
+		(property "LPN" "C404045"
+			(at 212.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM3478MMX/NOPB "
+			(at 212.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "744fe846-6ad6-442f-89d4-5673d820be47")
 		)

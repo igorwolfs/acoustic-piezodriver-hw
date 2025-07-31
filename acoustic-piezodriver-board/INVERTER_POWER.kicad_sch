@@ -423,168 +423,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_Small_0_1"
-				(rectangle
-					(start -1.524 0.6858)
-					(end 1.524 0.3048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.524 -0.3048)
-					(end 1.524 -0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -2815,18 +2653,6 @@
 		)
 	)
 	(rectangle
-		(start 23.876 20.828)
-		(end 120.65 141.224)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0452ff3e-9369-4ad4-8b46-c040a50aa5d4)
-	)
-	(rectangle
 		(start 200.152 138.176)
 		(end 393.7 246.38)
 		(stroke
@@ -2883,18 +2709,6 @@
 		)
 		(uuid "3d39c61f-a118-42cd-9e91-e8640a65e081")
 	)
-	(text "Inverter voltage not necessarily equal to input voltage!\n"
-		(exclude_from_sim no)
-		(at 40.64 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "431e2363-9810-4cc1-9867-ed84c67a8c72")
-	)
 	(text "10V SEPIC CONVERTER"
 		(exclude_from_sim no)
 		(at 245.618 30.226 0)
@@ -2907,18 +2721,6 @@
 		)
 		(uuid "6401284b-26a8-494d-98f7-d2e817a6ef33")
 	)
-	(text "DECOUPLING AND BULK"
-		(exclude_from_sim no)
-		(at 44.958 25.654 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "67ba26ca-ea9e-4d1a-8c28-fc3b47c39a40")
-	)
 	(text "Capacitors here must be able to withstand 50 V"
 		(exclude_from_sim no)
 		(at 305.054 164.846 0)
@@ -2929,18 +2731,6 @@
 			(justify left)
 		)
 		(uuid "7766cd43-0900-4c17-8566-9e503453791b")
-	)
-	(text "Peak frequency capacitors\n20 A over 15 ns with dV = 0.2 V => 1.5 uF"
-		(exclude_from_sim no)
-		(at 50.038 74.422 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "78525d62-3867-4ec0-ac7c-dad74f47e8e0")
 	)
 	(text "40V BOOST CONVERTER"
 		(exclude_from_sim no)
@@ -2953,32 +2743,6 @@
 			)
 		)
 		(uuid "7a7049e6-e5e2-456d-a482-b558bd0c956f")
-	)
-	(text "Polymer Bulk capacitors\n3 Amps RMS over 600 ns\nIrms-peak currrent: 2.65 A each"
-		(exclude_from_sim no)
-		(at 47.498 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "9669693e-cba5-48da-900e-3abac5da19a3")
-	)
-	(text "WARN: DIAMETER PHI_D(10) x L(15)\n- Should be the same as 10x20, different height\n- Check with manufacturer"
-		(exclude_from_sim no)
-		(at 25.908 137.414 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf0f9f5d-ab66-47b8-89ca-45cda8cc6630")
 	)
 	(text "If boost is inactive -> directly pass input to inverter"
 		(exclude_from_sim no)
@@ -3009,24 +2773,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05670fde-e616-4174-8013-88b784606946")
-	)
-	(junction
-		(at 83.82 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07225bf3-3344-4b23-aeaf-a84585bb4ca7")
-	)
-	(junction
-		(at 63.5 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0811c132-d112-4153-84f7-6892a24cd656")
-	)
-	(junction
-		(at 55.88 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a169851-2b56-4a31-9528-3f711aeebef8")
 	)
 	(junction
 		(at 365.76 198.12)
@@ -3065,12 +2811,6 @@
 		(uuid "1cbebb3d-664a-4e89-af57-4d96090a4ea9")
 	)
 	(junction
-		(at 83.82 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1cd41458-df6a-4b88-9032-258512ab0fbd")
-	)
-	(junction
 		(at 374.65 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3099,12 +2839,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "566139b1-114a-4c72-b209-1604885d465b")
-	)
-	(junction
-		(at 73.66 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5742c48f-e26c-4776-8b48-4a15263472d8")
 	)
 	(junction
 		(at 359.41 105.41)
@@ -3179,18 +2913,6 @@
 		(uuid "7d3beca6-fe49-465a-aaac-d25101c3d377")
 	)
 	(junction
-		(at 60.96 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f559f34-dcc1-42c6-8150-b9dc6c54246d")
-	)
-	(junction
-		(at 53.34 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b68850a-f13b-4b21-ba07-1685489c999e")
-	)
-	(junction
 		(at 342.9 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3257,12 +2979,6 @@
 		(uuid "ae47c615-5a5f-4a9f-86bd-446a1389aa20")
 	)
 	(junction
-		(at 55.88 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b057dd49-d92f-4a32-ada8-afecd0ee0a2a")
-	)
-	(junction
 		(at 260.35 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3279,12 +2995,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b92c9fab-e05d-4b68-996b-67bd408ca73c")
-	)
-	(junction
-		(at 63.5 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be5178d8-7372-435b-ae8b-8080441701e7")
 	)
 	(junction
 		(at 238.76 200.66)
@@ -3317,12 +3027,6 @@
 		(uuid "c7e72458-ee2d-4d19-ba15-ae2d118a4c37")
 	)
 	(junction
-		(at 46.99 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfe3720c-f53d-4936-ab24-5fcdd23c647a")
-	)
-	(junction
 		(at 370.84 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3335,12 +3039,6 @@
 		(uuid "d74a8161-a058-4efe-ba19-31beb2ee1947")
 	)
 	(junction
-		(at 73.66 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7d464bd-b4f1-4989-ae22-86c0259a92f0")
-	)
-	(junction
 		(at 265.43 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3351,18 +3049,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd796110-18e5-4099-ae5b-4d4ff46d7bda")
-	)
-	(junction
-		(at 60.96 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0804be4-bd1e-4fb9-99b6-c878fae04e11")
-	)
-	(junction
-		(at 52.07 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e14ff3b8-abc0-481f-a67e-ccbc3f60183e")
 	)
 	(junction
 		(at 325.12 90.17)
@@ -3381,12 +3067,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7e046d5-2277-4067-8fad-6917e6406371")
-	)
-	(junction
-		(at 53.34 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbdf0bf0-3cde-4056-a194-d18d071cfa46")
 	)
 	(junction
 		(at 309.88 58.42)
@@ -3423,16 +3103,6 @@
 	(no_connect
 		(at 300.99 237.49)
 		(uuid "f6fbd92d-8e48-41df-bd25-8025478d2aed")
-	)
-	(wire
-		(pts
-			(xy 63.5 53.34) (xy 73.66 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0079a476-ffc4-44ad-ab4f-3bbb31681e01")
 	)
 	(wire
 		(pts
@@ -3536,26 +3206,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 53.34) (xy 83.82 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09b76dd6-5bcb-43f0-8202-4e64224f5743")
-	)
-	(wire
-		(pts
-			(xy 60.96 90.17) (xy 76.2 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f0e046-8e03-493a-be03-9a414d21cb11")
-	)
-	(wire
-		(pts
 			(xy 359.41 81.28) (xy 359.41 85.09)
 		)
 		(stroke
@@ -3573,16 +3223,6 @@
 			(type default)
 		)
 		(uuid "0c476443-2238-4718-9131-8ba91edf1df6")
-	)
-	(wire
-		(pts
-			(xy 45.72 62.23) (xy 53.34 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c9a48a8-b337-43d6-bec8-a05e47636d30")
 	)
 	(wire
 		(pts
@@ -3646,16 +3286,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 87.63) (xy 52.07 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14af6956-541f-4b9e-822a-c39fa096d879")
-	)
-	(wire
-		(pts
 			(xy 340.36 220.98) (xy 340.36 223.52)
 		)
 		(stroke
@@ -3696,16 +3326,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 99.06) (xy 44.45 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "182ffd5f-b0cf-4d40-b28e-ca3bcbbd198a")
-	)
-	(wire
-		(pts
 			(xy 309.88 58.42) (xy 314.96 58.42)
 		)
 		(stroke
@@ -3733,26 +3353,6 @@
 			(type default)
 		)
 		(uuid "1a7633c9-60f3-4d66-bf29-9643cd51f03e")
-	)
-	(wire
-		(pts
-			(xy 55.88 50.8) (xy 55.88 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aca44ee-b0f9-4130-ae7b-e2adae866cda")
-	)
-	(wire
-		(pts
-			(xy 73.66 62.23) (xy 83.82 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1accc5ab-de76-4fb1-b71b-4a2f66ae0f68")
 	)
 	(wire
 		(pts
@@ -3803,16 +3403,6 @@
 			(type default)
 		)
 		(uuid "20f383ea-bebf-43f9-82a4-021419fa131d")
-	)
-	(wire
-		(pts
-			(xy 76.2 97.79) (xy 76.2 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21686acc-89a7-448f-99fc-fd70e55d2061")
 	)
 	(wire
 		(pts
@@ -3926,16 +3516,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 60.96) (xy 45.72 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "345b53cf-f6fe-4259-a527-4e7a1e850707")
-	)
-	(wire
-		(pts
 			(xy 370.84 68.58) (xy 370.84 69.85)
 		)
 		(stroke
@@ -3996,26 +3576,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 53.34) (xy 53.34 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c1a3bf0-c1c5-44b0-9462-8a98c135216a")
-	)
-	(wire
-		(pts
-			(xy 60.96 97.79) (xy 60.96 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cd820de-889c-44be-945e-82e1a44dac72")
-	)
-	(wire
-		(pts
 			(xy 303.53 172.72) (xy 303.53 171.45)
 		)
 		(stroke
@@ -4033,16 +3593,6 @@
 			(type default)
 		)
 		(uuid "3d1fe14d-b29a-4841-a9a0-fa81c03a53d2")
-	)
-	(wire
-		(pts
-			(xy 53.34 53.34) (xy 55.88 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d5f7bb5-9aba-4433-ae25-2c2f66f48ca8")
 	)
 	(wire
 		(pts
@@ -4076,16 +3626,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 90.17) (xy 76.2 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40af0052-1bb2-4353-a254-f055f0e63f0a")
-	)
-	(wire
-		(pts
 			(xy 378.46 68.58) (xy 374.65 68.58)
 		)
 		(stroke
@@ -4093,16 +3633,6 @@
 			(type default)
 		)
 		(uuid "42bdf569-3afe-4b17-be4e-a94a1b55932c")
-	)
-	(wire
-		(pts
-			(xy 73.66 60.96) (xy 73.66 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42cf1df0-390b-47a8-83b2-a53a95f6f657")
 	)
 	(wire
 		(pts
@@ -4156,16 +3686,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 62.23) (xy 83.82 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e3f899b-475c-47b8-9eaa-5cbe9b6649de")
-	)
-	(wire
-		(pts
 			(xy 237.49 85.09) (xy 237.49 80.01)
 		)
 		(stroke
@@ -4183,16 +3703,6 @@
 			(type default)
 		)
 		(uuid "5356a841-8b16-4f5a-a9f8-11e59c0187f1")
-	)
-	(wire
-		(pts
-			(xy 45.72 55.88) (xy 45.72 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53da4e86-4939-470c-87df-2cc8db14acc7")
 	)
 	(wire
 		(pts
@@ -4326,16 +3836,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 62.23) (xy 55.88 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fa7fd69-2f70-40df-a35a-05c0f6943ebc")
-	)
-	(wire
-		(pts
 			(xy 386.08 74.93) (xy 386.08 77.47)
 		)
 		(stroke
@@ -4343,26 +3843,6 @@
 			(type default)
 		)
 		(uuid "6049efc0-392e-44a1-95e8-5decfbe60116")
-	)
-	(wire
-		(pts
-			(xy 63.5 62.23) (xy 73.66 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61b5595b-e9c6-42be-b8f6-0b1d366127ee")
-	)
-	(wire
-		(pts
-			(xy 93.98 55.88) (xy 93.98 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62cad612-7639-4c8a-9605-ad98f5ddbb36")
 	)
 	(wire
 		(pts
@@ -4413,16 +3893,6 @@
 			(type default)
 		)
 		(uuid "65c0bcb2-3844-457f-b418-b5d8c8d08fc1")
-	)
-	(wire
-		(pts
-			(xy 63.5 60.96) (xy 63.5 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66287776-f9c2-49f1-a58a-07026ca031b6")
 	)
 	(wire
 		(pts
@@ -4483,26 +3953,6 @@
 			(type default)
 		)
 		(uuid "6ddf3e48-bc7d-48f4-942a-06501f3a0477")
-	)
-	(wire
-		(pts
-			(xy 63.5 53.34) (xy 63.5 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e02fa3d-0d3d-4872-a952-bbfd3f069b55")
-	)
-	(wire
-		(pts
-			(xy 60.96 99.06) (xy 46.99 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f1d4054-3a59-47cf-a95e-5d3d853c3f9a")
 	)
 	(wire
 		(pts
@@ -4586,16 +4036,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 53.34) (xy 73.66 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76291a80-4d45-466a-8d50-de873fb877bc")
-	)
-	(wire
-		(pts
 			(xy 353.06 93.98) (xy 359.41 93.98)
 		)
 		(stroke
@@ -4603,16 +4043,6 @@
 			(type default)
 		)
 		(uuid "76773289-6e90-45ec-939b-ef8ce0530c9b")
-	)
-	(wire
-		(pts
-			(xy 93.98 53.34) (xy 83.82 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76e0a0e2-6605-4cca-b7f3-eb05f0292723")
 	)
 	(wire
 		(pts
@@ -4836,16 +4266,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 50.8) (xy 59.69 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e494577-9b4e-424e-b2a2-2df675df5e27")
-	)
-	(wire
-		(pts
 			(xy 365.76 198.12) (xy 374.65 198.12)
 		)
 		(stroke
@@ -4863,26 +4283,6 @@
 			(type default)
 		)
 		(uuid "90f9fd1e-6b3e-4a66-8b18-bb60fd2837de")
-	)
-	(wire
-		(pts
-			(xy 44.45 92.71) (xy 44.45 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92bdca76-03b9-4578-88d7-1f97689817ca")
-	)
-	(wire
-		(pts
-			(xy 52.07 87.63) (xy 55.88 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9300dc51-77b2-4b7c-b82c-aed905712919")
 	)
 	(wire
 		(pts
@@ -4916,16 +4316,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 62.23) (xy 63.5 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96302bfe-3653-4847-80b3-2d5e51ed56dd")
-	)
-	(wire
-		(pts
 			(xy 314.96 66.04) (xy 314.96 64.77)
 		)
 		(stroke
@@ -4933,16 +4323,6 @@
 			(type default)
 		)
 		(uuid "96735084-767d-4dd7-ad47-d6781cd3b190")
-	)
-	(wire
-		(pts
-			(xy 53.34 53.34) (xy 53.34 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "969cf8c7-9477-4ffa-9228-e858b8c2b17a")
 	)
 	(wire
 		(pts
@@ -5053,16 +4433,6 @@
 			(type default)
 		)
 		(uuid "a4e93cae-0cf9-4be7-8953-c28889d0c767")
-	)
-	(wire
-		(pts
-			(xy 55.88 63.5) (xy 55.88 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a56accb1-f6c9-4dc7-8281-f892e4763420")
 	)
 	(wire
 		(pts
@@ -5196,16 +4566,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 60.96) (xy 93.98 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0ef3021-c7c3-4096-8f28-51d80872c182")
-	)
-	(wire
-		(pts
 			(xy 323.85 220.98) (xy 328.93 220.98)
 		)
 		(stroke
@@ -5236,16 +4596,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 90.17) (xy 60.96 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b427da08-ea67-4b8c-b53d-1228f8152e7c")
-	)
-	(wire
-		(pts
 			(xy 304.8 58.42) (xy 304.8 59.69)
 		)
 		(stroke
@@ -5253,16 +4603,6 @@
 			(type default)
 		)
 		(uuid "b96d74d0-6ed3-4785-b91c-6282d9d94fe2")
-	)
-	(wire
-		(pts
-			(xy 53.34 60.96) (xy 53.34 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba161731-544b-44e0-9cf3-6ed72323587d")
 	)
 	(wire
 		(pts
@@ -5346,16 +4686,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 99.06) (xy 60.96 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c07f702d-9bd6-4b4e-a382-e7fb897aa9d8")
-	)
-	(wire
-		(pts
 			(xy 293.37 179.07) (xy 295.91 179.07)
 		)
 		(stroke
@@ -5413,16 +4743,6 @@
 			(type default)
 		)
 		(uuid "c8b986b8-025b-4766-9918-04091d40dfa0")
-	)
-	(wire
-		(pts
-			(xy 55.88 53.34) (xy 63.5 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca5ad714-e9fb-4850-b2f5-1d325b4ab477")
 	)
 	(wire
 		(pts
@@ -5503,16 +4823,6 @@
 			(type default)
 		)
 		(uuid "cf7d1772-4ff2-40bf-a5b9-14180477baa5")
-	)
-	(wire
-		(pts
-			(xy 52.07 90.17) (xy 44.45 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfb0235c-31ad-440f-a8d4-37f5e0c5ae4c")
 	)
 	(wire
 		(pts
@@ -5626,26 +4936,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 83.82 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc4b29ad-6def-4cb8-898f-7e1c7e236024")
-	)
-	(wire
-		(pts
-			(xy 46.99 99.06) (xy 44.45 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deaf5163-095a-4d38-bbe9-74825cdaa35c")
-	)
-	(wire
-		(pts
 			(xy 304.8 55.88) (xy 304.8 58.42)
 		)
 		(stroke
@@ -5746,16 +5036,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 53.34) (xy 83.82 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edb01d9a-8143-4ac9-a14d-cf8dce6341c9")
-	)
-	(wire
-		(pts
 			(xy 378.46 60.96) (xy 374.65 60.96)
 		)
 		(stroke
@@ -5836,16 +5116,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 90.17) (xy 60.96 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fde4ade8-2cd9-4bb6-b818-403000cd00f3")
-	)
-	(wire
-		(pts
 			(xy 320.04 171.45) (xy 320.04 177.8)
 		)
 		(stroke
@@ -5886,28 +5156,6 @@
 			(justify left)
 		)
 		(uuid "42e9cb3c-79d4-45c2-8d03-3b735a188915")
-	)
-	(hierarchical_label "10V"
-		(shape bidirectional)
-		(at 55.88 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c13148ee-90f8-4d2a-a3a0-47ef63e80541")
-	)
-	(hierarchical_label "10V"
-		(shape bidirectional)
-		(at 59.69 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c1c19bca-b303-4fa4-bcfc-49a3343fdcdd")
 	)
 	(hierarchical_label "VINV_P"
 		(shape bidirectional)
@@ -6364,6 +5612,24 @@
 				(hide yes)
 			)
 		)
+		(property "LPN" "C404045"
+			(at 280.67 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM3478MMX/NOPB "
+			(at 280.67 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "e2b88966-3db3-42b5-857e-7af1bfd1ea25")
 		)
@@ -6614,6 +5880,24 @@
 			)
 		)
 		(property "Description" "2.97~40V Wide Input Range Boost/SEPIC/Flyback DC-DC Controller, VSSOP-8"
+			(at 281.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LPN" "C404045"
+			(at 281.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM3478MMX/NOPB "
 			(at 281.94 85.09 0)
 			(effects
 				(font
@@ -7567,72 +6851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 46.99 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b57db0e-42de-4b5c-98a8-748676e53f0f")
-		(property "Reference" "#PWR0203"
-			(at 46.99 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.006 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bc272bf-4fc8-491a-8ef3-1a271a9ab97a")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
-					(reference "#PWR0203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 265.43 68.58 0)
 		(unit 1)
@@ -8092,73 +7310,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38e8681c-48e3-4b60-9847-789c602e27c7")
-		(property "Reference" "#PWR0204"
-			(at 55.88 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b47f8d80-cdbc-404c-9281-d4421cf587c5")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 237.49 68.58 0)
 		(unit 1)
@@ -8398,93 +7549,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 45.72 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40db984a-3977-42fe-aa7c-56ad54b8e363")
-		(property "Reference" "C204"
-			(at 48.006 55.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 45.466 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 45.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 45.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C28323"
-			(at 45.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
-			(at 45.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4474c33b-db67-45c2-bb4a-6e85021ce0ec")
-		)
-		(pin "2"
-			(uuid "b14b60b2-5e39-4884-aea3-b59e7d9a65e8")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
-					(reference "C204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 222.25 80.01 90)
 		(unit 1)
@@ -8566,93 +7630,6 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
 					(reference "R504")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 83.82 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ba939a7-017c-4e00-8b5e-f2e47e158f18")
-		(property "Reference" "C208"
-			(at 87.122 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 83.566 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 83.82 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C28323"
-			(at 83.82 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
-			(at 83.82 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab2fc150-3cf8-4b22-a119-c0b8df2dc929")
-		)
-		(pin "2"
-			(uuid "902b5a1b-9b54-45b5-9edd-ae58350b0084")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
-					(reference "C208")
 					(unit 1)
 				)
 			)
@@ -10042,93 +9019,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 76.2 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ce2e66d-2505-4cae-84fe-4f7b45eaa954")
-		(property "Reference" "C203"
-			(at 77.978 93.218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF"
-			(at 76.454 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
-			(at 76.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 76.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C2983797"
-			(at 76.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "SPZ1JM221G15O00RAXXX"
-			(at 76.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e954016-c526-40b0-94eb-3b943949d726")
-		)
-		(pin "2"
-			(uuid "7d6bb2b3-197e-446c-a61d-dbc3fe72d192")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
-					(reference "C203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 306.07 77.47 90)
 		(unit 1)
@@ -10754,93 +9644,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 53.34 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c0717f7-3bae-4faf-99a9-0bdbed93d74a")
-		(property "Reference" "C205"
-			(at 56.642 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 53.086 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C28323"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2da974b6-9e5c-4a29-b3c7-ce569874eeae")
-		)
-		(pin "2"
-			(uuid "2fe4b2f0-cfc5-4803-bc79-652dbe8a029f")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
-					(reference "C205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 243.84 207.01 0)
 		(unit 1)
@@ -11052,93 +9855,6 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
 					(reference "#PWR0519")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 73.66 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93c95a61-2029-4f95-8dae-a49cc0788d02")
-		(property "Reference" "C207"
-			(at 76.962 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 73.406 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 73.66 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 73.66 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C28323"
-			(at 73.66 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
-			(at 73.66 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b1213de-2cf2-489a-8600-03a6e04feb28")
-		)
-		(pin "2"
-			(uuid "72017b71-8e34-4573-8578-a0ee6620476b")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
-					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -11358,93 +10074,6 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
 					(reference "R508")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 63.5 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ca9de93-0360-433d-9456-e998e878ec29")
-		(property "Reference" "C206"
-			(at 66.802 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 63.246 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 63.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 63.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C28323"
-			(at 63.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
-			(at 63.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90039b20-51d7-484c-a482-c43879e5f97c")
-		)
-		(pin "2"
-			(uuid "bf2b30ef-8b79-49c5-88c0-03340956e4fe")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
-					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -12070,7 +10699,7 @@
 		(dnp no)
 		(uuid "b175606d-7efe-4329-8967-19a63e2b5037")
 		(property "Reference" "C523"
-			(at 264.414 71.374 0)
+			(at 256.54 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12490,93 +11119,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 60.96 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5f9e3de-af85-4f6d-a0b5-d5a183e3c778")
-		(property "Reference" "C202"
-			(at 62.738 93.218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF"
-			(at 63.5 97.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
-			(at 60.96 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 60.96 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C2983797"
-			(at 60.96 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "SPZ1JM221G15O00RAXXX"
-			(at 60.96 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43e4fe67-b81a-4c6d-b1e3-708a34ba66da")
-		)
-		(pin "2"
-			(uuid "33adfe15-b27a-453b-a258-7f24da127488")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
-					(reference "C202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 236.22 218.44 0)
 		(unit 1)
@@ -12799,93 +11341,6 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
 					(reference "#PWR0518")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 93.98 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbd6327f-c064-4c36-85ba-984636f9430f")
-		(property "Reference" "C209"
-			(at 97.282 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 93.726 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C28323"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7cdd4dd-00ea-4b60-8c0a-4523cb333cff")
-		)
-		(pin "2"
-			(uuid "ef6956eb-5ce5-48b8-946f-c1997a539f06")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
-					(reference "C209")
 					(unit 1)
 				)
 			)
@@ -13452,93 +11907,6 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
 					(reference "C522")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 44.45 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4fa0691-c90a-42a0-85bd-42a6b40d166a")
-		(property "Reference" "C201"
-			(at 46.228 93.218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF"
-			(at 46.228 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
-			(at 44.45 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 44.45 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C2983797"
-			(at 44.45 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "SPZ1JM221G15O00RAXXX"
-			(at 44.45 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "752cde11-322b-4e4b-8539-7e3ef0864c07")
-		)
-		(pin "2"
-			(uuid "88964ced-814c-4a11-8fe9-058c5340fbaf")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
-					(reference "C201")
 					(unit 1)
 				)
 			)
