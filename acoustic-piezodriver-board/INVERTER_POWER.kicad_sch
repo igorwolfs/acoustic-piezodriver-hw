@@ -7622,6 +7622,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L_Small")
+		(at 342.9 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33d5238c-7afe-43f2-b474-3da2edfd547e")
+		(property "Reference" "L502"
+			(at 344.17 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uH"
+			(at 344.17 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "iw-inductor:PSPMAA1050H-101M-ANP"
+			(at 342.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588935627815862272"
+			(at 342.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "+-20%, DCR 0.25, Isat_rms=3A"
+			(at 342.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LPN" "C5273830"
+			(at 342.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PSPMAA1050H-101M-ANP "
+			(at 342.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac7f0ed5-45e5-4c8b-aee7-6476e309cccf")
+		)
+		(pin "1"
+			(uuid "a96eca49-1d3a-4a81-ac0c-a316ff16b69e")
+		)
+		(instances
+			(project "acoustic-piezodriver-board"
+				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
+					(reference "L502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 283.21 213.36 0)
 		(unit 1)
@@ -9228,93 +9316,6 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
 					(reference "C502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 325.12 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60a3ed9c-a460-4576-a4f8-63712b569f3e")
-		(property "Reference" "L501"
-			(at 326.39 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100uH"
-			(at 325.882 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588935627815862272"
-			(at 325.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "+-20%, DCR 0.25, Isat_rms=2A"
-			(at 325.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LPN" "C436577"
-			(at 325.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PSPMAC1045H-101M-ANP"
-			(at 325.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7f632833-2b54-427c-a10c-4d23b82229cd")
-		)
-		(pin "1"
-			(uuid "ae5c88d4-4e72-430f-b479-a59fefca3c7e")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
-					(reference "L501")
 					(unit 1)
 				)
 			)
@@ -12435,93 +12436,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 342.9 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bde8cc71-ce59-4247-af63-ba451f7d64dd")
-		(property "Reference" "L502"
-			(at 343.916 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uH"
-			(at 343.916 77.216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588935627815862272"
-			(at 342.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "+-20%, DCR 0.25, Isat_rms=2A"
-			(at 342.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LPN" "C436577"
-			(at 342.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PSPMAC1045H-101M-ANP"
-			(at 342.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "87d30b27-e9b0-4f0c-887f-c37db75c9459")
-		)
-		(pin "1"
-			(uuid "ba69e9ed-a8ba-44a3-94eb-977162604e19")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
-					(reference "L502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 237.49 60.96 0)
 		(unit 1)
@@ -13220,6 +13134,94 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
 					(reference "#PWR0513")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 325.12 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e23a8781-5ba1-496f-8bc1-72996a2f1a59")
+		(property "Reference" "L501"
+			(at 326.39 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uH"
+			(at 326.39 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "iw-inductor:PSPMAA1050H-101M-ANP"
+			(at 325.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588935627815862272"
+			(at 325.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "+-20%, DCR 0.25, Isat_rms=3A"
+			(at 325.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LPN" "C5273830"
+			(at 325.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PSPMAA1050H-101M-ANP "
+			(at 325.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1091b2f1-7e26-4331-9cf8-b172953d5940")
+		)
+		(pin "1"
+			(uuid "358e130d-b849-4300-90d8-2b5e6b9a9570")
+		)
+		(instances
+			(project "acoustic-piezodriver-board"
+				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
+					(reference "L501")
 					(unit 1)
 				)
 			)
