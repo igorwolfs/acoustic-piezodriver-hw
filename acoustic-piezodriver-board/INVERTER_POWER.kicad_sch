@@ -2698,9 +2698,9 @@
 		)
 		(uuid "189f9f40-9c4a-45f6-be28-1c37436812c1")
 	)
-	(text "DC-DC (SEPIC) VBAT -> 10 V\nCapacitance datasheet recommendations\n- Input capacitance (10-20 uF)\n- Output capacitance (100 uF) "
+	(text "DC-DC (SEPIC) VBAT -> 10 V\nCapacitance datasheet recommendations\n- Input capacitance (10-20 uF)\n- Output capacitance (100 uF) \nSEPIC_EN:\n- If enabled makes the inverter work (With VBATT or 40 V)"
 		(exclude_from_sim no)
-		(at 349.758 28.448 0)
+		(at 327.406 30.226 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7902,7 +7902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
 			(at 379.73 54.61 0)
 			(effects
 				(font
@@ -8914,7 +8914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
 			(at 359.41 185.42 0)
 			(effects
 				(font
