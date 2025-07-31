@@ -53,3 +53,4 @@
 
 ## Connectors
 - Add pads for each power supply so you can supply it externally for testing if necessary
+	- For 6V no pad is required since there is already a hal-sensor that takes in the current.

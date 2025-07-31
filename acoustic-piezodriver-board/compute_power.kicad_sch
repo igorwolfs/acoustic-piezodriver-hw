@@ -5,125 +5,6 @@
 	(uuid "3f7e9c00-7585-4910-9955-55a242f7863a")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:TestPoint_Flag"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 3.429 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Flag"
-				(at 3.302 4.191 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point (alternative flag-style design)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_Flag_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.889 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.889 2.794)
-					(end 5.842 0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TestPoint_Flag_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2378,7 +2259,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin power_out line
 					(at 35.56 -10.16 180)
 					(length 5.08)
 					(name "NC"
@@ -3118,6 +2999,12 @@
 		(uuid "6fe977e6-a197-4d90-9eec-082e966592df")
 	)
 	(junction
+		(at 57.15 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70bf5f47-4017-41ed-9b18-d59114628a0c")
+	)
+	(junction
 		(at 292.1 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3164,12 +3051,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6cbb107-05e8-4eab-9f62-2e3b8aa439f0")
-	)
-	(junction
-		(at 345.44 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a82214e3-4e79-459e-98af-b2e302480dad")
 	)
 	(junction
 		(at 256.54 87.63)
@@ -3242,10 +3123,6 @@
 	(no_connect
 		(at 331.47 140.97)
 		(uuid "e60dc63e-6530-4556-979f-1f2e654729fb")
-	)
-	(no_connect
-		(at 58.42 140.97)
-		(uuid "ff75eaa7-8db7-4904-82e4-c004270ea171")
 	)
 	(wire
 		(pts
@@ -3529,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 135.89) (xy 58.42 135.89)
+			(xy 36.83 140.97) (xy 45.72 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3829,6 +3706,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 140.97) (xy 45.72 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979b0446-5609-41c2-9ced-0a494f541f91")
+	)
+	(wire
+		(pts
 			(xy 292.1 113.03) (xy 292.1 115.57)
 		)
 		(stroke
@@ -3906,6 +3793,16 @@
 			(type default)
 		)
 		(uuid "aa63b556-2afb-4c63-9f6d-41cd5ffd0d4a")
+	)
+	(wire
+		(pts
+			(xy 45.72 135.89) (xy 58.42 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf8d9fd-6353-44da-93d8-9b0a1b5f96ab")
 	)
 	(wire
 		(pts
@@ -3999,6 +3896,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 146.05) (xy 58.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8c7511-b313-4e4d-a619-dd47fabca799")
+	)
+	(wire
+		(pts
 			(xy 241.3 62.23) (xy 251.46 62.23)
 		)
 		(stroke
@@ -4006,16 +3913,6 @@
 			(type default)
 		)
 		(uuid "be290c87-2f66-4fd7-91e2-ea8ad9ac0125")
-	)
-	(wire
-		(pts
-			(xy 345.44 77.47) (xy 351.79 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be3b0dd3-4ac1-440f-87c7-d8c32f6d0e70")
 	)
 	(wire
 		(pts
@@ -4129,16 +4026,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 69.85) (xy 345.44 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f71d3b-f172-46fa-b5f8-3db6e6a2ba88")
-	)
-	(wire
-		(pts
 			(xy 332.74 85.09) (xy 332.74 87.63)
 		)
 		(stroke
@@ -4156,6 +4043,16 @@
 			(type default)
 		)
 		(uuid "d6f6999d-df9e-4947-a667-cc16d15c7818")
+	)
+	(wire
+		(pts
+			(xy 57.15 140.97) (xy 57.15 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88e4a6d-1a6e-44c0-810f-50a2107c80cd")
 	)
 	(wire
 		(pts
@@ -4289,6 +4186,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 140.97) (xy 58.42 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7126b11-a8b0-44f5-bcbb-80132c1daaab")
+	)
+	(wire
+		(pts
 			(xy 245.11 99.06) (xy 257.81 99.06)
 		)
 		(stroke
@@ -4359,7 +4266,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 149.86) (xy 58.42 146.05)
+			(xy 57.15 149.86) (xy 57.15 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4439,7 +4346,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 77.47) (xy 345.44 77.47)
+			(xy 335.28 77.47) (xy 351.79 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4469,7 +4376,7 @@
 	)
 	(hierarchical_label "ADC_IFPGA"
 		(shape output)
-		(at 38.1 135.89 180)
+		(at 36.83 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6087,7 +5994,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 149.86 0)
+		(at 57.15 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6096,7 +6003,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e495cc1-7a48-4179-bcce-a60e44c8e748")
 		(property "Reference" "#PWR0307"
-			(at 58.42 156.21 0)
+			(at 57.15 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6105,7 +6012,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 154.94 0)
+			(at 57.15 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 149.86 0)
+			(at 57.15 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 149.86 0)
+			(at 57.15 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6038,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 149.86 0)
+			(at 57.15 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,73 +6205,6 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/a0fbc78d-8163-4e6b-8d81-98a3dd6573cb"
 					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Flag")
-		(at 345.44 69.85 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cec4edb-b1cd-4080-bb75-3d9cd9c6c266")
-		(property "Reference" "TP301"
-			(at 339.344 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 338.328 67.056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 340.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 340.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative flag-style design)"
-			(at 345.44 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d519e914-5b3d-42ba-8cf3-14c80c3ed321")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/a0fbc78d-8163-4e6b-8d81-98a3dd6573cb"
-					(reference "TP301")
 					(unit 1)
 				)
 			)

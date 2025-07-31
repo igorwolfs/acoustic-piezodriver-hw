@@ -1412,7 +1412,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin power_out line
 					(at 35.56 -10.16 180)
 					(length 5.08)
 					(name "NC"
@@ -1597,6 +1597,25 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2157,12 +2176,6 @@
 		(uuid "4d1b215d-466c-44e6-ad86-080b98e63139")
 	)
 	(junction
-		(at 91.44 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59aeea28-2446-4a3c-9b1a-372c6c571dc3")
-	)
-	(junction
 		(at 243.84 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2191,6 +2204,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90904c26-a37d-44a4-8c6e-e5537e916a06")
+	)
+	(junction
+		(at 124.46 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98325008-33eb-4493-8f24-276903c7143f")
 	)
 	(junction
 		(at 121.92 97.79)
@@ -2275,10 +2294,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f46ff158-5c2c-4a09-9c0d-07d8d87d6187")
-	)
-	(no_connect
-		(at 124.46 203.2)
-		(uuid "7ed8758b-0e2b-4daf-85cd-a4c891e9c1e9")
 	)
 	(bus_entry
 		(at 38.1 87.63)
@@ -2468,16 +2483,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 214.63) (xy 91.44 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "219ca9f9-3405-4e7c-a70b-751408a9a5fb")
-	)
-	(wire
-		(pts
 			(xy 113.03 41.91) (xy 128.27 41.91)
 		)
 		(stroke
@@ -2498,7 +2503,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 107.95) (xy 53.34 107.95)
+			(xy 62.23 107.95) (xy 57.15 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2678,16 +2683,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 207.01) (xy 91.44 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ae0e994-25d0-4460-b621-67264d32db09")
-	)
-	(wire
-		(pts
 			(xy 252.73 100.33) (xy 252.73 104.14)
 		)
 		(stroke
@@ -2748,6 +2743,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 203.2) (xy 124.46 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6a06cb-d5ce-45b3-89f4-d98e6453fc5c")
+	)
+	(wire
+		(pts
 			(xy 135.89 100.33) (xy 135.89 96.52)
 		)
 		(stroke
@@ -2768,7 +2773,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 107.95) (xy 53.34 110.49)
+			(xy 57.15 107.95) (xy 57.15 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3058,7 +3063,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 203.2) (xy 114.3 198.12)
+			(xy 114.3 208.28) (xy 114.3 198.12)
 		)
 		(stroke
 			(width 0)
@@ -3085,16 +3090,6 @@
 			(type default)
 		)
 		(uuid "8001672b-e886-4eb2-9ae6-ae39b65f12c0")
-	)
-	(wire
-		(pts
-			(xy 91.44 203.2) (xy 114.3 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "801c6177-d2dd-4f29-a9e7-e4a3b6419e24")
 	)
 	(wire
 		(pts
@@ -3488,7 +3483,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 203.2) (xy 91.44 203.2)
+			(xy 106.68 208.28) (xy 114.3 208.28)
 		)
 		(stroke
 			(width 0)
@@ -3991,7 +3986,7 @@
 	)
 	(hierarchical_label "ADC_IINV"
 		(shape output)
-		(at 85.09 203.2 180)
+		(at 106.68 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4725,94 +4720,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 91.44 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cf8303e-1dbe-4df3-af6d-262edc20e4eb")
-		(property "Reference" "C211"
-			(at 93.98 208.2862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1nF"
-			(at 93.98 210.8262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 91.44 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707266641018880"
-			(at 91.44 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 91.44 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LPN" "C1523"
-			(at 91.44 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402B102K500NT"
-			(at 91.44 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38e595aa-577a-4e7b-af8a-f84cb5061831")
-		)
-		(pin "2"
-			(uuid "0251d8b4-4219-468a-bfb0-5354cbe00dbf")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94"
-					(reference "C211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "iw-power:UCC27282DR")
 		(at 74.93 92.71 0)
 		(unit 1)
@@ -4904,6 +4811,9 @@
 		)
 		(pin "1"
 			(uuid "58ac830f-10ea-4bce-93cc-fcb622aa033e")
+		)
+		(pin "9"
+			(uuid "98a04d3f-d846-47b5-add0-8c5e770937ef")
 		)
 		(instances
 			(project "acoustic-piezodriver-board"
@@ -5484,72 +5394,6 @@
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94"
 					(reference "U6")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "517d474b-ead6-4f51-a6b6-93c05737d073")
-		(property "Reference" "#PWR0207"
-			(at 91.44 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0b10265-6465-44d9-bbab-f66317ce2532")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94"
-					(reference "#PWR0207")
-					(unit 1)
 				)
 			)
 		)
@@ -6562,7 +6406,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 110.49 0)
+		(at 57.15 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6571,7 +6415,7 @@
 		(fields_autoplaced yes)
 		(uuid "9067600e-cf2b-4260-af8f-e91a90222048")
 		(property "Reference" "#PWR04"
-			(at 53.34 116.84 0)
+			(at 57.15 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6580,7 +6424,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 111.7599 0)
+			(at 59.69 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6589,7 +6433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 110.49 0)
+			(at 57.15 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,7 +6442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 110.49 0)
+			(at 57.15 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,7 +6451,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 110.49 0)
+			(at 57.15 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,6 +6749,9 @@
 		)
 		(pin "1"
 			(uuid "20aef81d-b889-471a-a17c-0d9602b90c40")
+		)
+		(pin "9"
+			(uuid "2e06400e-8abb-4fef-ba61-a8160a8cfeb8")
 		)
 		(instances
 			(project ""

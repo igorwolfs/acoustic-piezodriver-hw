@@ -1,4 +1,4 @@
-25988902519568904
+25992410508037084
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103761,6 +103761,13 @@ Inductor wirewound power shielded
 2
 2
 iw-inductor
+PA4343.223NLT
+
+
+0
+2
+2
+iw-inductor
 PSPMAA1050H-101M-ANP
 
 
@@ -103769,6 +103776,13 @@ PSPMAA1050H-101M-ANP
 2
 iw-inductor
 PSPMAC1045H-101M-ANP
+
+
+0
+2
+2
+iw-inductor
+SMDRH104R
 
 
 0
