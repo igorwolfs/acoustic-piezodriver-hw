@@ -2106,15 +2106,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D0008A-IPC_A D0008A-IPC_B D0008A-IPC_C D0008A-MFG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "TMCS1108A3UQDR_1_1"
 				(rectangle
 					(start 5.334 5.588)
@@ -2259,7 +2250,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 35.56 -10.16 180)
 					(length 5.08)
 					(name "NC"
@@ -2873,7 +2864,7 @@
 		(uuid "01550f5a-0066-4784-bddc-a5ca6c7de5b5")
 	)
 	(junction
-		(at 241.3 72.39)
+		(at 240.03 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "016d5b19-f771-4267-8078-fea9ed55374d")
@@ -3107,6 +3098,12 @@
 		(uuid "e86317ea-06c5-4cfe-99b9-e19d557e99ab")
 	)
 	(junction
+		(at 241.3 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3ecd3d5-6bd9-422b-8e00-406d4d6aa673")
+	)
+	(junction
 		(at 50.8 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3273,6 +3270,16 @@
 			(type default)
 		)
 		(uuid "1e6e9ce1-80ea-4641-98ce-c6f2d48542ec")
+	)
+	(wire
+		(pts
+			(xy 193.04 87.63) (xy 193.04 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1f96cf-6ce6-43ff-a97d-cf378612f75d")
 	)
 	(wire
 		(pts
@@ -3446,7 +3453,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 74.93) (xy 241.3 72.39)
+			(xy 240.03 74.93) (xy 240.03 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3703,6 +3710,16 @@
 			(type default)
 		)
 		(uuid "94f3a50d-fae9-445c-bdad-cd2542531daf")
+	)
+	(wire
+		(pts
+			(xy 241.3 72.39) (xy 251.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975cde35-7aa0-4a5d-830f-8823d646d24f")
 	)
 	(wire
 		(pts
@@ -4076,7 +4093,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 72.39) (xy 241.3 72.39)
+			(xy 232.41 72.39) (xy 240.03 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4256,7 +4273,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 72.39) (xy 251.46 72.39)
+			(xy 240.03 72.39) (xy 241.3 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5689,7 +5706,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 86.36 0)
+		(at 193.04 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5697,7 +5714,7 @@
 		(dnp no)
 		(uuid "55471ec0-6b07-4a49-83bf-981b0f1e0dcc")
 		(property "Reference" "#PWR0302"
-			(at 193.04 92.71 0)
+			(at 193.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5706,7 +5723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.834 90.424 0)
+			(at 195.834 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +5731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 86.36 0)
+			(at 193.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +5740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 86.36 0)
+			(at 193.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +5749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 86.36 0)
+			(at 193.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,112 +6874,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 193.04 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a376dd05-240c-4947-b105-393e0bcde6ff")
-		(property "Reference" "C301"
-			(at 188.976 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 189.738 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8603345729432014848"
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LPN" "C22435929"
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CGA0201X7R104K160ET "
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "115c6ba2-0b26-4798-a94a-9d1afeca6fed")
-		)
-		(pin "1"
-			(uuid "46024e21-d5b3-4750-9d17-7ba3ea83367c")
-		)
-		(instances
-			(project "acoustic-piezodriver-board"
-				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/a0fbc78d-8163-4e6b-8d81-98a3dd6573cb"
-					(reference "C301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 40.64 129.54 0)
 		(unit 1)
@@ -7439,7 +7350,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 74.93 0)
+		(at 240.03 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7448,7 +7359,7 @@
 		(fields_autoplaced yes)
 		(uuid "c995f38f-4f23-48ca-b94f-f0f8249ae6b0")
 		(property "Reference" "#PWR042"
-			(at 241.3 81.28 0)
+			(at 240.03 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7368,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 80.01 0)
+			(at 240.03 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +7376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 74.93 0)
+			(at 240.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +7385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 74.93 0)
+			(at 240.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +7394,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 74.93 0)
+			(at 240.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,6 +7931,94 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/a0fbc78d-8163-4e6b-8d81-98a3dd6573cb"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 193.04 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e87b1197-d230-466a-8389-7e5c83d96f42")
+		(property "Reference" "C301"
+			(at 187.96 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 189.738 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 193.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8603345729432014848"
+			(at 193.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 193.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LPN" "C307331"
+			(at 193.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 193.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45253e63-f3d8-40a2-924b-d0a03aa82d5f")
+		)
+		(pin "1"
+			(uuid "d5fc7661-687e-4b1c-b406-39b7a32942bd")
+		)
+		(instances
+			(project "acoustic-piezodriver-board"
+				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/a0fbc78d-8163-4e6b-8d81-98a3dd6573cb"
+					(reference "C301")
 					(unit 1)
 				)
 			)
