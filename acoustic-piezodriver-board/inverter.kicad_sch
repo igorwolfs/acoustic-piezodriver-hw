@@ -6238,7 +6238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
+		(property "LPN" "C28323"
 			(at 44.45 62.23 0)
 			(effects
 				(font
@@ -6247,7 +6247,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C28323"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 44.45 62.23 0)
 			(effects
 				(font
@@ -6323,8 +6323,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C22936"
-			(at 135.89 93.98 90)
+		(property "LPN" "C22936"
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,8 +6332,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "0603WAF100KT5E"
-			(at 135.89 93.98 90)
+		(property "MPN" "0603WAF100KT5E"
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +6391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705879345881088"
 			(at 100.33 102.87 0)
 			(effects
 				(font
@@ -6409,7 +6409,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C17903"
+		(property "LPN" "C17903"
 			(at 100.33 102.87 0)
 			(effects
 				(font
@@ -6418,7 +6418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "1206W4F100JT5E"
+		(property "MPN" "1206W4F100JT5E"
 			(at 100.33 102.87 0)
 			(effects
 				(font
@@ -6494,8 +6494,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C22936"
-			(at 134.62 62.23 90)
+		(property "LPN" "C22936"
+			(at 134.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,8 +6503,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "0603WAF100KT5E"
-			(at 134.62 62.23 90)
+		(property "MPN" "0603WAF100KT5E"
+			(at 134.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,8 +6796,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C22936"
-			(at 265.43 100.33 90)
+		(property "LPN" "C22936"
+			(at 265.43 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,8 +6805,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "0603WAF100KT5E"
-			(at 265.43 100.33 90)
+		(property "MPN" "0603WAF100KT5E"
+			(at 265.43 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7013,7 +7013,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C2867844"
+		(property "MPN" "UCC27282DR"
 			(at 74.93 92.71 0)
 			(effects
 				(font
@@ -7022,7 +7022,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "UCC27282DR"
+		(property "LPN" "C2867844"
 			(at 74.93 92.71 0)
 			(effects
 				(font
@@ -7122,7 +7122,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C15195"
+		(property "LPN" "C15195"
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B103KB5NNNC"
 			(at 135.89 102.87 0)
 			(effects
 				(font
@@ -7198,8 +7207,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C22936"
-			(at 264.16 124.46 90)
+		(property "LPN" "C22936"
+			(at 264.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,8 +7216,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "0603WAF100KT5E"
-			(at 264.16 124.46 90)
+		(property "MPN" "0603WAF100KT5E"
+			(at 264.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7266,7 +7275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705879345881088"
 			(at 236.22 106.68 0)
 			(effects
 				(font
@@ -7284,8 +7293,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C17903"
-			(at 236.22 106.68 0)
+		(property "LPN" "C17903"
+			(at 236.22 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,8 +7302,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "1206W4F100JT5E"
-			(at 236.22 106.68 0)
+		(property "MPN" "1206W4F100JT5E"
+			(at 236.22 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,7 +7513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
+		(property "LPN" "C28323"
 			(at 36.83 62.23 0)
 			(effects
 				(font
@@ -7513,7 +7522,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C28323"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 36.83 62.23 0)
 			(effects
 				(font
@@ -7591,7 +7600,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C15195"
+		(property "LPN" "C15195"
 			(at 134.62 68.58 0)
 			(effects
 				(font
@@ -7600,7 +7609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL05B103KB5NNNC"
+		(property "MPN" "CL05B103KB5NNNC"
 			(at 134.62 68.58 0)
 			(effects
 				(font
@@ -7743,7 +7752,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C28323"
+		(property "LPN" "C28323"
 			(at 318.77 139.7 0)
 			(effects
 				(font
@@ -7752,7 +7761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 318.77 139.7 0)
 			(effects
 				(font
@@ -7936,7 +7945,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C28323"
+		(property "LPN" "C28323"
 			(at 356.87 139.7 0)
 			(effects
 				(font
@@ -7945,7 +7954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 356.87 139.7 0)
 			(effects
 				(font
@@ -8217,8 +8226,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C22936"
-			(at 265.43 74.93 90)
+		(property "LPN" "C22936"
+			(at 265.43 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8226,8 +8235,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "0603WAF100KT5E"
-			(at 265.43 74.93 90)
+		(property "MPN" "0603WAF100KT5E"
+			(at 265.43 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,7 +8528,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C2983797"
+		(property "LPN" "C2983797"
 			(at 349.25 176.53 0)
 			(effects
 				(font
@@ -8528,7 +8537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "SPZ1JM221G15O00RAXXX"
+		(property "MPN" "SPZ1JM221G15O00RAXXX"
 			(at 349.25 176.53 0)
 			(effects
 				(font
@@ -8588,7 +8597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881119395647488"
 			(at 125.73 81.28 0)
 			(effects
 				(font
@@ -8607,6 +8616,15 @@
 			)
 		)
 		(property "MPN" "NCE6005AS"
+			(at 121.92 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LPN" "C126151"
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -8700,8 +8718,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C22936"
-			(at 129.54 128.27 90)
+		(property "LPN" "C22936"
+			(at 129.54 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8709,8 +8727,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "0603WAF100KT5E"
-			(at 129.54 128.27 90)
+		(property "MPN" "0603WAF100KT5E"
+			(at 129.54 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9029,7 +9047,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C15195"
+		(property "LPN" "C15195"
 			(at 265.43 82.55 0)
 			(effects
 				(font
@@ -9038,7 +9056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL05B103KB5NNNC"
+		(property "MPN" "CL05B103KB5NNNC"
 			(at 265.43 82.55 0)
 			(effects
 				(font
@@ -9116,7 +9134,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C28323"
+		(property "LPN" "C28323"
 			(at 326.39 139.7 0)
 			(effects
 				(font
@@ -9125,7 +9143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 326.39 139.7 0)
 			(effects
 				(font
@@ -9254,7 +9272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881119395647488"
 			(at 125.73 107.95 0)
 			(effects
 				(font
@@ -9273,6 +9291,15 @@
 			)
 		)
 		(property "MPN" "NCE6005AS"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LPN" "C126151"
 			(at 121.92 107.95 0)
 			(effects
 				(font
@@ -9368,7 +9395,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C28323"
+		(property "LPN" "C28323"
 			(at 346.71 139.7 0)
 			(effects
 				(font
@@ -9377,7 +9404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 346.71 139.7 0)
 			(effects
 				(font
@@ -9456,7 +9483,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C5378"
+		(property "LPN" "C5378"
 			(at 237.49 96.52 0)
 			(effects
 				(font
@@ -9465,7 +9492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL21B224KBFNNNE"
+		(property "MPN" "CL21B224KBFNNNE"
 			(at 237.49 96.52 0)
 			(effects
 				(font
@@ -9543,7 +9570,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C28323"
+		(property "LPN" "C28323"
 			(at 336.55 139.7 0)
 			(effects
 				(font
@@ -9552,7 +9579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 336.55 139.7 0)
 			(effects
 				(font
@@ -9628,7 +9655,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C2867844"
+		(property "MPN" "UCC27282DR"
 			(at 210.82 95.25 0)
 			(effects
 				(font
@@ -9637,7 +9664,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "UCC27282DR"
+		(property "LPN" "C2867844"
 			(at 210.82 95.25 0)
 			(effects
 				(font
@@ -9737,7 +9764,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C15195"
+		(property "LPN" "C15195"
+			(at 129.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B103KB5NNNC"
 			(at 129.54 134.62 0)
 			(effects
 				(font
@@ -9815,7 +9851,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C15195"
+		(property "LPN" "C15195"
+			(at 264.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B103KB5NNNC"
 			(at 264.16 129.54 0)
 			(effects
 				(font
@@ -9892,8 +9937,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C17903"
-			(at 236.22 85.09 0)
+		(property "LPN" "C17903"
+			(at 236.22 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9901,8 +9946,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "1206W4F100JT5E"
-			(at 236.22 85.09 0)
+		(property "MPN" "1206W4F100JT5E"
+			(at 236.22 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9979,7 +10024,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C2983797"
+		(property "LPN" "C2983797"
 			(at 334.01 176.53 0)
 			(effects
 				(font
@@ -9988,7 +10033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "SPZ1JM221G15O00RAXXX"
+		(property "MPN" "SPZ1JM221G15O00RAXXX"
 			(at 334.01 176.53 0)
 			(effects
 				(font
@@ -10047,7 +10092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705879345881088"
 			(at 99.06 80.01 0)
 			(effects
 				(font
@@ -10065,8 +10110,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C17903"
-			(at 99.06 80.01 0)
+		(property "LPN" "C17903"
+			(at 99.06 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10074,8 +10119,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "1206W4F100JT5E"
-			(at 99.06 80.01 0)
+		(property "MPN" "1206W4F100JT5E"
+			(at 99.06 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10152,7 +10197,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C28323"
+		(property "LPN" "C28323"
 			(at 367.03 139.7 0)
 			(effects
 				(font
@@ -10161,7 +10206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 367.03 139.7 0)
 			(effects
 				(font
@@ -10305,7 +10350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
+		(property "LPN" "C28323"
 			(at 175.26 66.04 0)
 			(effects
 				(font
@@ -10314,7 +10359,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C28323"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 175.26 66.04 0)
 			(effects
 				(font
@@ -10698,7 +10743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
+		(property "LPN" "C28323"
 			(at 184.15 66.04 0)
 			(effects
 				(font
@@ -10707,7 +10752,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C28323"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 184.15 66.04 0)
 			(effects
 				(font
@@ -10955,7 +11000,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C5378"
+		(property "LPN" "C5378"
 			(at 100.33 92.71 0)
 			(effects
 				(font
@@ -10964,7 +11009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL21B224KBFNNNE"
+		(property "MPN" "CL21B224KBFNNNE"
 			(at 100.33 92.71 0)
 			(effects
 				(font
@@ -11108,7 +11153,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C15195"
+		(property "LPN" "C15195"
+			(at 265.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B103KB5NNNC"
 			(at 265.43 106.68 0)
 			(effects
 				(font
@@ -11186,7 +11240,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C2983797"
+		(property "LPN" "C2983797"
 			(at 317.5 176.53 0)
 			(effects
 				(font
@@ -11195,7 +11249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "SPZ1JM221G15O00RAXXX"
+		(property "MPN" "SPZ1JM221G15O00RAXXX"
 			(at 317.5 176.53 0)
 			(effects
 				(font

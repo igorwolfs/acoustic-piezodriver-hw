@@ -564,13 +564,13 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -582,37 +582,19 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part Number",
-          "name": "LCSC Part Number",
           "show": false
         },
         {
           "group_by": false,
           "label": "LPN",
           "name": "LPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturing Part Number",
-          "name": "Manufacturing Part Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -622,15 +604,9 @@
         },
         {
           "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

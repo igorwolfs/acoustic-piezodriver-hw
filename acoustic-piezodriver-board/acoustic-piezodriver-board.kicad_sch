@@ -1863,7 +1863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
+		(property "LPN" "C28323"
 			(at 30.48 149.86 0)
 			(effects
 				(font
@@ -1872,7 +1872,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C28323"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 30.48 149.86 0)
 			(effects
 				(font

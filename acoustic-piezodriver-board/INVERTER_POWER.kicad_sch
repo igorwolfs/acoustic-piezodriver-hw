@@ -6261,6 +6261,24 @@
 				(hide yes)
 			)
 		)
+		(property "LPN" "C20917"
+			(at 228.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 228.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d6afd58c-4ff1-42b3-9568-38c71b1e2296")
 		)
@@ -6407,7 +6425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 246.38 95.25 0)
 			(effects
 				(font
@@ -6427,6 +6445,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 246.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LPN" "C5378"
+			(at 246.38 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B224KBFNNNE"
+			(at 246.38 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11887,6 +11923,24 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 236.22 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LPN" "C20917"
+			(at 236.22 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AO3400A"
 			(at 236.22 218.44 0)
 			(effects
 				(font

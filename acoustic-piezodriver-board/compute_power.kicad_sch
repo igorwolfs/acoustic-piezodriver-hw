@@ -6574,7 +6574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 182.88 99.06 0)
 			(effects
 				(font
@@ -6594,6 +6594,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 182.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LPN" "C5378"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B224KBFNNNE"
+			(at 182.88 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -11,4 +11,20 @@
 - Check the plane requirements below the sensor.
 
 ## Connectors
-- Check connector orientation and distance
+- Check connector orientation 
+- Check connector distance from edge
+- Check connector footprint
+
+## Footprints
+- Check whether footprints 
+
+# Capacitors
+## C1 / C2 bootstrap caps
+- 220 nF OK -> 
+-
+
+
+## Filtering caps
+- 220 nF? Why so large?
+
+# IC's
