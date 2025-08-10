@@ -1154,6 +1154,651 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NCE6005AS_3"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.032 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NCE6005AS"
+				(at 5.08 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual N-channel Power MOSFET."
+				(at 10.414 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "NCE6005AS"
+				(at 3.556 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NCE6005AS_3_1_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 1.905) (xy -2.286 -1.905) (xy -2.286 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.778) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.27) (xy -1.778 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -0.508 0.381) (xy -0.508 -0.381) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.889 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.778)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0.762 -1.778) (xy 0.762 1.778) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.778)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.381) (xy 0.381 -0.254) (xy 1.143 -0.254) (xy 0.762 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 5.08)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(hide yes)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NCE6005AS_3_2_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 1.905) (xy -2.286 -1.905) (xy -2.286 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.778) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.27) (xy -1.778 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -0.508 0.381) (xy -0.508 -0.381) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.889 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.778)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0.762 -1.778) (xy 0.762 1.778) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.778)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.381) (xy 0.381 -0.254) (xy 1.143 -0.254) (xy 0.762 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 5.08)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(hide yes)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Controller:LM3478MM"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1687,7 +2332,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 3.81 0 0)
+				(at 2.032 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1695,7 +2340,7 @@
 				)
 			)
 			(property "Value" "NCE6005AS"
-				(at 7.62 -2.54 0)
+				(at 5.08 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1721,7 +2366,7 @@
 				)
 			)
 			(property "Description" "Dual N-channel Power MOSFET."
-				(at 0 0 0)
+				(at 10.414 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1730,7 +2375,7 @@
 				)
 			)
 			(property "MPN" "NCE6005AS"
-				(at 0 0 0)
+				(at 3.556 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3105,10 +3750,6 @@
 		(uuid "fe254830-5601-41e8-b7fa-7233447faf99")
 	)
 	(no_connect
-		(at 309.88 231.14)
-		(uuid "3ec0c4b0-c3f6-4f5c-8f85-39e4f65e2f43")
-	)
-	(no_connect
 		(at 374.65 101.6)
 		(uuid "4f5d9632-ae3c-48ff-a38e-91cf0d9f39fa")
 	)
@@ -3123,6 +3764,10 @@
 	(no_connect
 		(at 374.65 88.9)
 		(uuid "a8f02fdb-b1c1-4f17-a95d-5c0dc779ce6d")
+	)
+	(no_connect
+		(at 309.88 231.14)
+		(uuid "c2b9b6b8-e8dd-4a69-955a-4548e46e1df5")
 	)
 	(no_connect
 		(at 300.99 237.49)
@@ -5110,7 +5755,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 60.96) (xy 374.65 60.96)
+			(xy 377.19 60.96) (xy 374.65 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5220,9 +5865,9 @@
 		)
 		(uuid "391d9fcf-dfb6-48fb-a600-93dd3b17da30")
 	)
-	(hierarchical_label "10V"
+	(hierarchical_label "+10V"
 		(shape bidirectional)
-		(at 378.46 60.96 0)
+		(at 377.19 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5831,8 +6476,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm_ThermalVias"
-			(at 378.46 95.25 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 378.714 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +6486,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881119395647488"
-			(at 378.46 95.25 0)
+			(at 378.46 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +6495,7 @@
 			)
 		)
 		(property "Description" "Dual N-channel Power MOSFET."
-			(at 374.65 95.25 0)
+			(at 377.19 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +6504,7 @@
 			)
 		)
 		(property "MPN" "NCE6005AS"
-			(at 374.65 95.25 0)
+			(at 374.904 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,6 +6746,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NCE6005AS_3")
 		(lib_id "custom_mosfet:NCE6005AS")
 		(at 320.04 195.58 0)
 		(unit 2)
@@ -6110,7 +6756,7 @@
 		(dnp no)
 		(uuid "22f7d035-1cc3-4a3d-9614-bd5bcf72eb6b")
 		(property "Reference" "U503"
-			(at 324.358 195.58 0)
+			(at 315.976 197.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,7 +6773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm_ThermalVias"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 323.85 195.58 0)
 			(effects
 				(font
@@ -8457,7 +9103,7 @@
 		(dnp no)
 		(uuid "63a26552-4c0e-4e61-b820-39093f58a57e")
 		(property "Reference" "U501"
-			(at 328.168 75.946 0)
+			(at 319.024 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,7 +9112,7 @@
 			)
 		)
 		(property "Value" "NCE6005AS"
-			(at 328.422 81.026 0)
+			(at 319.024 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8474,8 +9120,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm_ThermalVias"
-			(at 328.93 80.01 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 329.184 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,7 +9130,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881119395647488"
-			(at 328.93 80.01 0)
+			(at 328.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8493,7 +9139,7 @@
 			)
 		)
 		(property "Description" "Dual N-channel Power MOSFET."
-			(at 325.12 80.01 0)
+			(at 327.66 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,7 +9148,7 @@
 			)
 		)
 		(property "MPN" "NCE6005AS"
-			(at 325.12 80.01 0)
+			(at 325.374 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10858,10 +11504,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b20c838b-d5ba-41f5-a035-7823c4374a8d")
 		(property "Reference" "U503"
-			(at 294.64 231.14 90)
+			(at 297.688 229.616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10874,9 +11519,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm_ThermalVias"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 297.18 231.14 0)
 			(effects
 				(font

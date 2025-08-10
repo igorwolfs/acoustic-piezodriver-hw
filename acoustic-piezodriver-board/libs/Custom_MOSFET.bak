@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 3.81 0 0)
+			(at 2.032 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Description" "Dual N-channel Power MOSFET."
-			(at 0 0 0)
+			(at 10.414 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,7 +53,7 @@
 			)
 		)
 		(property "MPN" "NCE6005AS"
-			(at 0 0 0)
+			(at 3.556 2.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)

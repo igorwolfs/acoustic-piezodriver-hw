@@ -1402,7 +1402,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 3.81 0 0)
+				(at 2.032 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1410,7 +1410,7 @@
 				)
 			)
 			(property "Value" "NCE6005AS"
-				(at 7.62 -2.54 0)
+				(at 5.08 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1436,7 +1436,7 @@
 				)
 			)
 			(property "Description" "Dual N-channel Power MOSFET."
-				(at 0 0 0)
+				(at 10.414 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1445,7 +1445,7 @@
 				)
 			)
 			(property "MPN" "NCE6005AS"
-				(at 0 0 0)
+				(at 3.556 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3110,15 +3110,15 @@
 		(uuid "f93f00ee-87d6-4997-be14-d26fae90f202")
 	)
 	(no_connect
-		(at 331.47 128.27)
+		(at 325.12 128.27)
 		(uuid "a37a1315-8414-44b2-a790-3ccc71413ad7")
 	)
 	(no_connect
-		(at 322.58 134.62)
+		(at 316.23 134.62)
 		(uuid "d1f77c45-bd23-45b3-9ddf-fe082d3b9b68")
 	)
 	(no_connect
-		(at 331.47 140.97)
+		(at 325.12 140.97)
 		(uuid "e60dc63e-6530-4556-979f-1f2e654729fb")
 	)
 	(wire
@@ -6941,7 +6941,7 @@
 	)
 	(symbol
 		(lib_id "custom_mosfet:NCE6005AS")
-		(at 331.47 134.62 0)
+		(at 325.12 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6950,7 +6950,7 @@
 		(fields_autoplaced yes)
 		(uuid "ada931b8-d919-42c2-b47b-42b5dad03a62")
 		(property "Reference" "U10"
-			(at 335.28 133.3499 0)
+			(at 328.93 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +6959,7 @@
 			)
 		)
 		(property "Value" "NCE6005AS"
-			(at 335.28 135.8899 0)
+			(at 328.93 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6968,7 +6968,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm_ThermalVias"
-			(at 335.28 134.62 0)
+			(at 328.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6977,7 +6977,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881119395647488"
-			(at 335.28 134.62 0)
+			(at 328.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +6986,7 @@
 			)
 		)
 		(property "Description" "Dual N-channel Power MOSFET."
-			(at 331.47 134.62 0)
+			(at 325.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6995,7 +6995,7 @@
 			)
 		)
 		(property "MPN" "NCE6005AS"
-			(at 331.47 134.62 0)
+			(at 325.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7004,7 +7004,7 @@
 			)
 		)
 		(property "LPN" "C126151"
-			(at 331.47 134.62 0)
+			(at 325.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
