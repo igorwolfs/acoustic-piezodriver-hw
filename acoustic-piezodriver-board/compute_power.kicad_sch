@@ -4653,7 +4653,7 @@
 		(dnp no)
 		(uuid "1b93562e-14e7-4303-91c8-ede1c2163498")
 		(property "Reference" "D5"
-			(at 242.57 91.186 0)
+			(at 244.094 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +4661,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 243.078 88.392 0)
+			(at 239.268 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +4837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Vf 0.55, If 5A"
+		(property "Description" "Vf 0.55, If 5A, DCblock 20 V"
 			(at 287.02 77.47 0)
 			(effects
 				(font

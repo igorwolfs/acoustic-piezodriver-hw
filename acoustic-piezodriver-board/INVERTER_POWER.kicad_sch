@@ -9087,7 +9087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Vf 0.55, If 5A"
+		(property "Description" "Vf 0.55, If 5A, DCblock 20 V"
 			(at 351.79 68.58 0)
 			(effects
 				(font
@@ -11384,7 +11384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 54.61 179.07 90)
 			(effects
 				(font
@@ -11814,7 +11814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 328.93 189.23 90)
 			(effects
 				(font
