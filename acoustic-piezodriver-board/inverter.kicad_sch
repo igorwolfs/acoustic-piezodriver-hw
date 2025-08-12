@@ -3517,6 +3517,18 @@
 		)
 		(uuid f4136b6f-3310-4756-81a7-c4449299053e)
 	)
+	(text "- Io: 0.74 A (R_gate: 1 ohm, R_fet: 10 ohm, 8-10 V Vhigh)\n- Q_gate: 22e-9\n	- 22e-9 / 0.74 = 30e-9s = 30 ns [100 ns period, 10 MHz], [1 us period, 1 MHz]"
+		(exclude_from_sim no)
+		(at 40.132 -13.208 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "2a089e77-d52a-4dfa-b5e1-f1f7dea1d264")
+	)
 	(text "DECOUPLING AND BULK"
 		(exclude_from_sim no)
 		(at 318.008 106.934 0)
@@ -6366,7 +6378,7 @@
 		(dnp no)
 		(uuid "0ce99a34-67b1-4821-a50e-d86049d43d06")
 		(property "Reference" "R4"
-			(at 101.6 104.902 0)
+			(at 99.06 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,7 +6412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "250mW"
 			(at 100.33 102.87 0)
 			(effects
 				(font
@@ -6987,7 +6999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 86.36 73.406 0)
 			(effects
 				(font
@@ -7284,7 +7296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "250mW"
 			(at 236.22 106.68 0)
 			(effects
 				(font
@@ -9629,7 +9641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 210.82 74.93 0)
 			(effects
 				(font
@@ -10101,7 +10113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "250mW"
 			(at 99.06 80.01 0)
 			(effects
 				(font

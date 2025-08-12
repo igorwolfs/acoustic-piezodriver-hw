@@ -3343,7 +3343,7 @@
 		)
 		(uuid "189f9f40-9c4a-45f6-be28-1c37436812c1")
 	)
-	(text "DC-DC (SEPIC) VBAT -> 10 V\nCapacitance datasheet recommendations\n- Input capacitance (10-20 uF)\n- Output capacitance (100 uF) \nSEPIC_EN:\n- If enabled makes the inverter work (With VBATT or 40 V)"
+	(text "DC-DC (SEPIC) VBAT -> 10 V\nCapacitance datasheet recommendations\n- Input capacitance (10-20 uF)\n- Output capacitance (100 uF) \nSEPIC_EN:\n- If enabled makes the inverter work (With VBATT or 40 V)\nFB BRIDGE\n- 10**2 / (4700+680) = 20 mW"
 		(exclude_from_sim no)
 		(at 327.406 30.226 0)
 		(effects
@@ -10052,7 +10052,7 @@
 			)
 		)
 		(property "Value" "39k"
-			(at 260.858 197.612 90)
+			(at 259.08 199.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
