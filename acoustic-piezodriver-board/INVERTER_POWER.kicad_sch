@@ -9061,7 +9061,7 @@
 				)
 			)
 		)
-		(property "Value" "SS52"
+		(property "Value" "SS54"
 			(at 351.79 70.866 0)
 			(effects
 				(font
@@ -9069,7 +9069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 351.79 68.58 90)
 			(effects
 				(font
@@ -11384,7 +11384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 54.61 179.07 90)
 			(effects
 				(font
@@ -11814,7 +11814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 328.93 189.23 90)
 			(effects
 				(font
