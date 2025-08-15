@@ -28,3 +28,6 @@
 - 220 nF? Why so large?
 
 # IC's
+## Switching IC
+10 V sepic
+- Impedance: 39 kOhm

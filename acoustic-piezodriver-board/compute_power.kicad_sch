@@ -2857,6 +2857,17 @@
 		)
 		(uuid "a9204877-c1f2-43a8-b16d-73209941a368")
 	)
+	(text "FA/SD: \n- ALWAYS ON-state (Pull-down)\n- F_osc: 400 MHz"
+		(exclude_from_sim no)
+		(at 164.338 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e606a1b3-fd04-4a4e-8f53-2a46ac7eeb1a")
+	)
 	(junction
 		(at 265.43 107.95)
 		(diameter 0)

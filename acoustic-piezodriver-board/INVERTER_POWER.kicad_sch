@@ -3389,6 +3389,17 @@
 		)
 		(uuid "7a7049e6-e5e2-456d-a482-b558bd0c956f")
 	)
+	(text "VMAX FA/SD:\n- 13 / (13+27) * 20 = 6.5 V < 7 V OK\nVMIN IN FA/SD:\n- 1.35 = Vin * (13) / (13+27) <=> Vin = 4.154 V -> Sepic starts working"
+		(exclude_from_sim no)
+		(at 203.454 42.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c69b2ac4-fa7c-42f2-b54b-bad22e10e356")
+	)
 	(text "If boost is inactive -> directly pass input to inverter"
 		(exclude_from_sim no)
 		(at 26.416 162.052 0)
