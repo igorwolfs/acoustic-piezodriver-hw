@@ -2969,6 +2969,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "iw-misc:TestPoint_0.25mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_0.25mm"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "iw-misc:TestPoint_Pad_D0.25mm"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0.25mm_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_0.25mm_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+BATT"
 			(power)
 			(pin_numbers
@@ -3485,10 +3592,22 @@
 		(uuid "23febe0e-1814-4313-8cca-b83385e4e466")
 	)
 	(junction
+		(at 349.25 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27ccb91d-fdd7-4399-9a11-6517f8e76b4b")
+	)
+	(junction
 		(at 363.22 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dc3937b-be97-40f0-89d7-4aec453e9100")
+	)
+	(junction
+		(at 297.18 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e552d52-bbb9-451e-bfec-8ca5b1b61e3e")
 	)
 	(junction
 		(at 354.33 189.23)
@@ -3587,6 +3706,12 @@
 		(uuid "944b8bbc-e33f-49f2-9844-cdf68ce81c3a")
 	)
 	(junction
+		(at 302.26 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95f1e922-bf23-4a74-9cb0-f08a32e3569b")
+	)
+	(junction
 		(at 359.41 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3663,6 +3788,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b92c9fab-e05d-4b68-996b-67bd408ca73c")
+	)
+	(junction
+		(at 340.36 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb770b02-cce7-47d5-b548-0cb510efc582")
 	)
 	(junction
 		(at 238.76 200.66)
@@ -4236,7 +4367,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 90.17) (xy 309.88 90.17)
+			(xy 294.64 90.17) (xy 302.26 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4446,6 +4577,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 85.09) (xy 359.41 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5957b4bf-1d37-4b1d-8dd9-58a962b5d456")
+	)
+	(wire
+		(pts
 			(xy 320.04 205.74) (xy 328.93 205.74)
 		)
 		(stroke
@@ -4633,6 +4774,26 @@
 			(type default)
 		)
 		(uuid "6b6d1e82-227e-459e-ab74-46b29aa7cc8b")
+	)
+	(wire
+		(pts
+			(xy 292.1 214.63) (xy 297.18 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c72099d-ecb2-4dda-a86b-fd76ded64fcf")
+	)
+	(wire
+		(pts
+			(xy 298.45 97.79) (xy 302.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf5f007-fbc2-491f-b2be-6c2300b94da3")
 	)
 	(wire
 		(pts
@@ -5006,6 +5167,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 203.2) (xy 340.36 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e8daa3-a271-4dfd-8351-a73af37d5282")
+	)
+	(wire
+		(pts
 			(xy 261.62 80.01) (xy 261.62 77.47)
 		)
 		(stroke
@@ -5066,7 +5237,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 200.66) (xy 340.36 205.74)
+			(xy 340.36 200.66) (xy 340.36 203.2)
 		)
 		(stroke
 			(width 0)
@@ -5426,6 +5597,26 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 90.17) (xy 309.88 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b38048-aef6-4f3c-bdaf-1557402f3aa0")
+	)
+	(wire
+		(pts
+			(xy 297.18 205.74) (xy 303.53 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36ba29c-11f7-46b5-ae72-35845c0fa3ae")
+	)
+	(wire
+		(pts
 			(xy 309.88 82.55) (xy 314.96 82.55)
 		)
 		(stroke
@@ -5476,7 +5667,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 85.09) (xy 359.41 85.09)
+			(xy 294.64 85.09) (xy 349.25 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5586,7 +5777,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 205.74) (xy 303.53 205.74)
+			(xy 293.37 205.74) (xy 297.18 205.74)
 		)
 		(stroke
 			(width 0)
@@ -5656,6 +5847,26 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 83.82) (xy 349.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5531ce-7c1e-4875-9841-ce5b14820dd1")
+	)
+	(wire
+		(pts
+			(xy 346.71 203.2) (xy 340.36 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def4cd6c-5d81-4478-a08b-53bdff8aaa17")
+	)
+	(wire
+		(pts
 			(xy 304.8 55.88) (xy 304.8 58.42)
 		)
 		(stroke
@@ -5713,6 +5924,26 @@
 			(type default)
 		)
 		(uuid "e547c2a0-14cb-4c9b-a095-ca644416980f")
+	)
+	(wire
+		(pts
+			(xy 346.71 196.85) (xy 346.71 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e548f06c-f783-4768-b775-5a33e255d8b6")
+	)
+	(wire
+		(pts
+			(xy 297.18 214.63) (xy 297.18 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5db96a4-4d90-4076-b616-c9952ccfefab")
 	)
 	(wire
 		(pts
@@ -5796,6 +6027,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 97.79) (xy 298.45 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0799e8e-eff0-4043-8c7f-aaf75e91435d")
+	)
+	(wire
+		(pts
 			(xy 318.77 205.74) (xy 318.77 210.82)
 		)
 		(stroke
@@ -5833,6 +6074,16 @@
 			(type default)
 		)
 		(uuid "f471eecd-4c43-4e4f-9b18-7bced9cb751d")
+	)
+	(wire
+		(pts
+			(xy 302.26 90.17) (xy 302.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f306e9-3fd4-439f-889f-77ac0b6a8a87")
 	)
 	(wire
 		(pts
@@ -5963,7 +6214,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C440198"
+		(property "LCSC Part Number" "C440198"
 			(at 303.53 175.26 0)
 			(effects
 				(font
@@ -5972,7 +6223,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61H106KE43L"
+		(property "Manufacturing Part Number" "GRM21BR61H106KE43L"
 			(at 303.53 175.26 0)
 			(effects
 				(font
@@ -6181,7 +6432,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C2453841"
+		(property "LCSC Part Number" "C2453841"
 			(at 320.04 180.34 0)
 			(effects
 				(font
@@ -6190,7 +6441,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PA4343.223NLT "
+		(property "Manufacturing Part Number" "PA4343.223NLT "
 			(at 320.04 180.34 0)
 			(effects
 				(font
@@ -6272,7 +6523,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C20917"
+		(property "LCSC Part Number" "C20917"
 			(at 228.6 96.52 0)
 			(effects
 				(font
@@ -6281,7 +6532,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AO3400A"
+		(property "Manufacturing Part Number" "AO3400A"
 			(at 228.6 96.52 0)
 			(effects
 				(font
@@ -6360,7 +6611,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C404045"
+		(property "LCSC Part Number" "C404045"
 			(at 280.67 200.66 0)
 			(effects
 				(font
@@ -6369,7 +6620,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LM3478MMX/NOPB "
+		(property "Manufacturing Part Number" "LM3478MMX/NOPB "
 			(at 280.67 200.66 0)
 			(effects
 				(font
@@ -6463,7 +6714,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C5378"
+		(property "LCSC Part Number" "C5378"
 			(at 246.38 95.25 90)
 			(effects
 				(font
@@ -6472,7 +6723,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21B224KBFNNNE"
+		(property "Manufacturing Part Number" "CL21B224KBFNNNE"
 			(at 246.38 95.25 90)
 			(effects
 				(font
@@ -6550,8 +6801,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NCE6005AS"
-			(at 374.904 97.028 0)
+		(property "LCSC Part Number" "C126151"
+			(at 374.65 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6559,7 +6810,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C126151"
+		(property "Manufacturing Part Number" "NCE6005AS"
 			(at 374.65 95.25 0)
 			(effects
 				(font
@@ -6654,7 +6905,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C404045"
+		(property "LCSC Part Number" "C404045"
 			(at 281.94 85.09 0)
 			(effects
 				(font
@@ -6663,7 +6914,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LM3478MMX/NOPB "
+		(property "Manufacturing Part Number" "LM3478MMX/NOPB "
 			(at 281.94 85.09 0)
 			(effects
 				(font
@@ -6759,7 +7010,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C1523"
+		(property "LCSC Part Number" "C1523"
 			(at 328.93 213.36 0)
 			(effects
 				(font
@@ -6768,7 +7019,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402B102K500NT"
+		(property "Manufacturing Part Number" "0402B102K500NT"
 			(at 328.93 213.36 0)
 			(effects
 				(font
@@ -6847,7 +7098,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NCE6005AS"
+		(property "LCSC Part Number" "C126151"
 			(at 320.04 195.58 0)
 			(effects
 				(font
@@ -6856,7 +7107,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C126151"
+		(property "Manufacturing Part Number" "NCE6005AS"
 			(at 320.04 195.58 0)
 			(effects
 				(font
@@ -6952,7 +7203,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1206W3F200MT5E"
+		(property "LCSC Part Number" "C2765435"
 			(at 318.77 213.36 0)
 			(effects
 				(font
@@ -6961,7 +7212,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C2765435"
+		(property "Manufacturing Part Number" "1206W3F200MT5E"
 			(at 318.77 213.36 0)
 			(effects
 				(font
@@ -7039,7 +7290,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C23162"
+		(property "LCSC Part Number" "C23162"
 			(at 359.41 78.74 0)
 			(effects
 				(font
@@ -7048,7 +7299,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF4701T5E"
+		(property "Manufacturing Part Number" "0603WAF4701T5E"
 			(at 359.41 78.74 0)
 			(effects
 				(font
@@ -7192,8 +7443,8 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C14663"
-			(at 250.19 205.74 0)
+		(property "LCSC Part Number" "C14663"
+			(at 250.19 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,8 +7452,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
-			(at 250.19 205.74 0)
+		(property "Manufacturing Part Number" "CC0603KRX7R9BB104"
+			(at 250.19 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,7 +7530,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C22984"
+		(property "LCSC Part Number" "C22984"
 			(at 340.36 195.58 0)
 			(effects
 				(font
@@ -7288,7 +7539,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF3002T5E"
+		(property "Manufacturing Part Number" "0603WAF3002T5E"
 			(at 340.36 195.58 0)
 			(effects
 				(font
@@ -7366,7 +7617,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C45783"
+		(property "LCSC Part Number" "C45783"
 			(at 386.08 72.39 0)
 			(effects
 				(font
@@ -7375,7 +7626,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MAQNNNE"
+		(property "Manufacturing Part Number" "CL21A226MAQNNNE"
 			(at 386.08 72.39 0)
 			(effects
 				(font
@@ -7518,7 +7769,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C1546"
+		(property "LCSC Part Number" "C1546"
 			(at 353.06 100.33 0)
 			(effects
 				(font
@@ -7527,7 +7778,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402CG101J500NT"
+		(property "Manufacturing Part Number" "0402CG101J500NT"
 			(at 353.06 100.33 0)
 			(effects
 				(font
@@ -7738,7 +7989,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C5273830"
+		(property "LCSC Part Number" "C5273830"
 			(at 342.9 73.66 0)
 			(effects
 				(font
@@ -7747,7 +7998,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PSPMAA1050H-101M-ANP "
+		(property "Manufacturing Part Number" "PSPMAA1050H-101M-ANP "
 			(at 342.9 73.66 0)
 			(effects
 				(font
@@ -7956,7 +8207,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C21190"
+		(property "LCSC Part Number" "C21190"
 			(at 342.9 213.36 0)
 			(effects
 				(font
@@ -7965,7 +8216,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "Manufacturing Part Number" "0603WAF1001T5E"
 			(at 342.9 213.36 0)
 			(effects
 				(font
@@ -8043,7 +8294,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C22967"
+		(property "LCSC Part Number" "C22967"
 			(at 240.03 194.31 0)
 			(effects
 				(font
@@ -8052,7 +8303,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF2702T5E"
+		(property "Manufacturing Part Number" "0603WAF2702T5E"
 			(at 240.03 194.31 0)
 			(effects
 				(font
@@ -8130,7 +8381,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C22967"
+		(property "LCSC Part Number" "C22967"
 			(at 237.49 68.58 0)
 			(effects
 				(font
@@ -8139,7 +8390,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF2702T5E"
+		(property "Manufacturing Part Number" "0603WAF2702T5E"
 			(at 237.49 68.58 0)
 			(effects
 				(font
@@ -8216,7 +8467,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C15402"
+		(property "LCSC Part Number" "C15402"
 			(at 306.07 205.74 90)
 			(effects
 				(font
@@ -8225,7 +8476,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAJ0000T5E"
+		(property "Manufacturing Part Number" "0603WAJ0000T5E"
 			(at 306.07 205.74 90)
 			(effects
 				(font
@@ -8316,6 +8567,72 @@
 		)
 	)
 	(symbol
+		(lib_id "iw-misc:TestPoint_0.25mm")
+		(at 298.45 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47bc0615-37db-469d-953b-7b2d595dfd34")
+		(property "Reference" "TP503"
+			(at 300.99 91.9479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Testpoint"
+			(at 293.116 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 303.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 303.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 298.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aeaa19c-4074-40f6-af02-5b6b752719fd")
+		)
+		(instances
+			(project ""
+				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
+					(reference "TP503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 222.25 80.01 90)
 		(unit 1)
@@ -8369,7 +8686,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C22797"
+		(property "LCSC Part Number" "C22797"
 			(at 222.25 80.01 0)
 			(effects
 				(font
@@ -8378,7 +8695,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1302T5E"
+		(property "Manufacturing Part Number" "0603WAF1302T5E"
 			(at 222.25 80.01 0)
 			(effects
 				(font
@@ -8521,7 +8838,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C1523"
+		(property "LCSC Part Number" "C1523"
 			(at 321.31 97.79 0)
 			(effects
 				(font
@@ -8530,7 +8847,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402B102K500NT"
+		(property "Manufacturing Part Number" "0402B102K500NT"
 			(at 321.31 97.79 0)
 			(effects
 				(font
@@ -8608,7 +8925,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C440198"
+		(property "LCSC Part Number" "C440198"
 			(at 355.6 193.04 0)
 			(effects
 				(font
@@ -8617,7 +8934,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61H106KE43L"
+		(property "Manufacturing Part Number" "GRM21BR61H106KE43L"
 			(at 355.6 193.04 0)
 			(effects
 				(font
@@ -8647,7 +8964,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "57088331-26e0-4ed2-bfba-381ce0ea3c0f")
@@ -8763,7 +9080,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 255.27 190.5 0)
 			(effects
 				(font
@@ -8772,7 +9089,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KB54PNC"
+		(property "Manufacturing Part Number" "CL05B104KB54PNC"
 			(at 255.27 190.5 0)
 			(effects
 				(font
@@ -8848,8 +9165,8 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C29823"
-			(at 335.28 68.58 0)
+		(property "LCSC Part Number" "C29823"
+			(at 335.28 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8857,8 +9174,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1206B475K500NT"
-			(at 335.28 68.58 0)
+		(property "Manufacturing Part Number" "1206B475K500NT"
+			(at 335.28 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8935,7 +9252,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C440198"
+		(property "LCSC Part Number" "C440198"
 			(at 374.65 193.04 0)
 			(effects
 				(font
@@ -8944,7 +9261,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61H106KE43L"
+		(property "Manufacturing Part Number" "GRM21BR61H106KE43L"
 			(at 374.65 193.04 0)
 			(effects
 				(font
@@ -9022,7 +9339,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C440198"
+		(property "LCSC Part Number" "C440198"
 			(at 309.88 62.23 0)
 			(effects
 				(font
@@ -9031,7 +9348,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61H106KE43L"
+		(property "Manufacturing Part Number" "GRM21BR61H106KE43L"
 			(at 309.88 62.23 0)
 			(effects
 				(font
@@ -9107,7 +9424,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SS54"
+		(property "LCSC Part Number" "C22452"
 			(at 351.79 68.58 0)
 			(effects
 				(font
@@ -9116,7 +9433,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C22452"
+		(property "Manufacturing Part Number" "SS54"
 			(at 351.79 68.58 0)
 			(effects
 				(font
@@ -9135,6 +9452,72 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
 					(reference "D502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "iw-misc:TestPoint_0.25mm")
+		(at 292.1 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6337bdcd-2aa3-484c-bd16-7fdd9c35c4a6")
+		(property "Reference" "TP505"
+			(at 294.64 210.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 287.274 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 297.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 292.1 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c39dd04-9e80-4a2d-81ed-c7eea33b8384")
+		)
+		(instances
+			(project "acoustic-piezodriver-board"
+				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
+					(reference "TP505")
 					(unit 1)
 				)
 			)
@@ -9194,8 +9577,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NCE6005AS"
-			(at 325.374 81.788 0)
+		(property "LCSC Part Number" "C126151"
+			(at 325.12 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +9586,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C126151"
+		(property "Manufacturing Part Number" "NCE6005AS"
 			(at 325.12 80.01 0)
 			(effects
 				(font
@@ -9299,7 +9682,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C22797"
+		(property "LCSC Part Number" "C22797"
 			(at 224.79 200.66 0)
 			(effects
 				(font
@@ -9308,7 +9691,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1302T5E"
+		(property "Manufacturing Part Number" "0603WAF1302T5E"
 			(at 224.79 200.66 0)
 			(effects
 				(font
@@ -9449,7 +9832,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C2480"
+		(property "LCSC Part Number" "C2480"
 			(at 306.07 82.55 0)
 			(effects
 				(font
@@ -9458,7 +9841,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SS14"
+		(property "Manufacturing Part Number" "SS14"
 			(at 306.07 82.55 0)
 			(effects
 				(font
@@ -9535,7 +9918,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF3902T5E"
+		(property "LCSC Part Number" "C23153"
 			(at 255.27 85.09 90)
 			(effects
 				(font
@@ -9544,7 +9927,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C23153"
+		(property "Manufacturing Part Number" "0603WAF3902T5E"
 			(at 255.27 85.09 90)
 			(effects
 				(font
@@ -9620,7 +10003,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0805W8F2401T5E"
+		(property "LCSC Part Number" "C17526"
 			(at 312.42 90.17 90)
 			(effects
 				(font
@@ -9629,7 +10012,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C17526"
+		(property "Manufacturing Part Number" "0805W8F2401T5E"
 			(at 312.42 90.17 90)
 			(effects
 				(font
@@ -9658,7 +10041,7 @@
 		(at 354.33 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9838,7 +10221,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C15402"
+		(property "LCSC Part Number" "C15402"
 			(at 306.07 77.47 90)
 			(effects
 				(font
@@ -9847,7 +10230,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAJ0000T5E"
+		(property "Manufacturing Part Number" "0603WAJ0000T5E"
 			(at 306.07 77.47 90)
 			(effects
 				(font
@@ -9925,7 +10308,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C440198"
+		(property "LCSC Part Number" "C440198"
 			(at 293.37 175.26 0)
 			(effects
 				(font
@@ -9934,7 +10317,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61H106KE43L"
+		(property "Manufacturing Part Number" "GRM21BR61H106KE43L"
 			(at 293.37 175.26 0)
 			(effects
 				(font
@@ -10012,7 +10395,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C29823"
+		(property "LCSC Part Number" "C29823"
 			(at 284.48 175.26 0)
 			(effects
 				(font
@@ -10021,7 +10404,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1206B475K500NT"
+		(property "Manufacturing Part Number" "1206B475K500NT"
 			(at 284.48 175.26 0)
 			(effects
 				(font
@@ -10097,7 +10480,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF3902T5E"
+		(property "LCSC Part Number" "C23153"
 			(at 255.27 200.66 90)
 			(effects
 				(font
@@ -10106,7 +10489,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C23153"
+		(property "Manufacturing Part Number" "0603WAF3902T5E"
 			(at 255.27 200.66 90)
 			(effects
 				(font
@@ -10182,7 +10565,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C13167"
+		(property "LCSC Part Number" "C13167"
 			(at 255.27 90.17 90)
 			(effects
 				(font
@@ -10191,7 +10574,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF2701T5E"
+		(property "Manufacturing Part Number" "0603WAF2701T5E"
 			(at 255.27 90.17 90)
 			(effects
 				(font
@@ -10528,7 +10911,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C15402"
+		(property "LCSC Part Number" "C15402"
 			(at 302.26 191.77 90)
 			(effects
 				(font
@@ -10537,7 +10920,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAJ0000T5E"
+		(property "Manufacturing Part Number" "0603WAJ0000T5E"
 			(at 302.26 191.77 90)
 			(effects
 				(font
@@ -10813,7 +11196,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1206W3F500MT5E"
+		(property "LCSC Part Number" "C127691"
 			(at 325.12 97.79 0)
 			(effects
 				(font
@@ -10822,7 +11205,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C127691"
+		(property "Manufacturing Part Number" "1206W3F500MT5E"
 			(at 325.12 97.79 0)
 			(effects
 				(font
@@ -10964,7 +11347,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF3902T5E"
+		(property "LCSC Part Number" "C23153"
 			(at 256.54 205.74 90)
 			(effects
 				(font
@@ -10973,7 +11356,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C23153"
+		(property "Manufacturing Part Number" "0603WAF3902T5E"
 			(at 256.54 205.74 90)
 			(effects
 				(font
@@ -11051,7 +11434,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C29823"
+		(property "LCSC Part Number" "C29823"
 			(at 304.8 62.23 0)
 			(effects
 				(font
@@ -11060,7 +11443,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1206B475K500NT"
+		(property "Manufacturing Part Number" "1206B475K500NT"
 			(at 304.8 62.23 0)
 			(effects
 				(font
@@ -11204,7 +11587,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C45783"
+		(property "LCSC Part Number" "C45783"
 			(at 363.22 72.39 0)
 			(effects
 				(font
@@ -11213,7 +11596,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MAQNNNE"
+		(property "Manufacturing Part Number" "CL21A226MAQNNNE"
 			(at 363.22 72.39 0)
 			(effects
 				(font
@@ -11422,7 +11805,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SS510"
+		(property "LCSC Part Number" "C65010"
 			(at 54.61 179.07 0)
 			(effects
 				(font
@@ -11431,7 +11814,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C65010"
+		(property "Manufacturing Part Number" "SS510"
 			(at 54.61 179.07 0)
 			(effects
 				(font
@@ -11510,7 +11893,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 261.62 74.93 0)
 			(effects
 				(font
@@ -11519,7 +11902,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KB54PNC"
+		(property "Manufacturing Part Number" "CL05B104KB54PNC"
 			(at 261.62 74.93 0)
 			(effects
 				(font
@@ -11596,8 +11979,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NCE6005AS"
-			(at 300.99 231.14 0)
+		(property "LCSC Part Number" "C126151"
+			(at 300.99 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11605,8 +11988,8 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C126151"
-			(at 300.99 231.14 0)
+		(property "Manufacturing Part Number" "NCE6005AS"
+			(at 300.99 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11701,7 +12084,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C440198"
+		(property "LCSC Part Number" "C440198"
 			(at 365.76 193.04 0)
 			(effects
 				(font
@@ -11710,7 +12093,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61H106KE43L"
+		(property "Manufacturing Part Number" "GRM21BR61H106KE43L"
 			(at 365.76 193.04 0)
 			(effects
 				(font
@@ -11852,7 +12235,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SS510"
+		(property "LCSC Part Number" "C65010"
 			(at 328.93 189.23 0)
 			(effects
 				(font
@@ -11861,7 +12244,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C65010"
+		(property "Manufacturing Part Number" "SS510"
 			(at 328.93 189.23 0)
 			(effects
 				(font
@@ -11942,7 +12325,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C20917"
+		(property "LCSC Part Number" "C20917"
 			(at 236.22 218.44 0)
 			(effects
 				(font
@@ -11951,7 +12334,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AO3400A"
+		(property "Manufacturing Part Number" "AO3400A"
 			(at 236.22 218.44 0)
 			(effects
 				(font
@@ -12032,7 +12415,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C440198"
+		(property "LCSC Part Number" "C440198"
 			(at 314.96 62.23 0)
 			(effects
 				(font
@@ -12041,7 +12424,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61H106KE43L"
+		(property "Manufacturing Part Number" "GRM21BR61H106KE43L"
 			(at 314.96 62.23 0)
 			(effects
 				(font
@@ -12132,6 +12515,72 @@
 		)
 	)
 	(symbol
+		(lib_id "iw-misc:TestPoint_0.25mm")
+		(at 349.25 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d47a9203-37e6-46c4-abf8-c3edb3627a18")
+		(property "Reference" "TP504"
+			(at 351.79 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 338.836 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 354.33 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 349.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59e86ac3-d6da-49fb-b3bf-a59a96a98496")
+		)
+		(instances
+			(project "acoustic-piezodriver-board"
+				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
+					(reference "TP504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 257.81 100.33 270)
 		(unit 1)
@@ -12184,7 +12633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C1663"
+		(property "LCSC Part Number" "C1663"
 			(at 257.81 100.33 90)
 			(effects
 				(font
@@ -12193,7 +12642,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10C330JB8NNNC"
+		(property "Manufacturing Part Number" "CL10C330JB8NNNC"
 			(at 257.81 100.33 90)
 			(effects
 				(font
@@ -12337,7 +12786,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C5273830"
+		(property "LCSC Part Number" "C5273830"
 			(at 325.12 63.5 0)
 			(effects
 				(font
@@ -12346,7 +12795,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PSPMAA1050H-101M-ANP "
+		(property "Manufacturing Part Number" "PSPMAA1050H-101M-ANP "
 			(at 325.12 63.5 0)
 			(effects
 				(font
@@ -12424,7 +12873,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C45783"
+		(property "LCSC Part Number" "C45783"
 			(at 370.84 72.39 0)
 			(effects
 				(font
@@ -12433,7 +12882,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MAQNNNE"
+		(property "Manufacturing Part Number" "CL21A226MAQNNNE"
 			(at 370.84 72.39 0)
 			(effects
 				(font
@@ -12452,6 +12901,72 @@
 			(project "acoustic-piezodriver-board"
 				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
 					(reference "C506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "iw-misc:TestPoint_0.25mm")
+		(at 346.71 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e49fb8a4-0190-4d42-87c9-cc0d3b5845b1")
+		(property "Reference" "TP506"
+			(at 349.25 192.2779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 341.884 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 351.79 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 346.71 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9772a92c-a30e-4117-956e-746ba8f7dfa9")
+		)
+		(instances
+			(project "acoustic-piezodriver-board"
+				(path "/94cb090f-214e-44cc-b8ed-ae50ff29d2bf/0f73f174-3d76-44ea-b4fb-f42a113ccf94/3fdad211-c35f-4919-8f75-d4bdd008edbf"
+					(reference "TP506")
 					(unit 1)
 				)
 			)
@@ -12511,7 +13026,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C45783"
+		(property "LCSC Part Number" "C45783"
 			(at 378.46 72.39 0)
 			(effects
 				(font
@@ -12520,7 +13035,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MAQNNNE"
+		(property "Manufacturing Part Number" "CL21A226MAQNNNE"
 			(at 378.46 72.39 0)
 			(effects
 				(font
@@ -12664,7 +13179,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C1546"
+		(property "LCSC Part Number" "C1546"
 			(at 334.01 213.36 0)
 			(effects
 				(font
@@ -12673,7 +13188,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402CG101J500NT"
+		(property "Manufacturing Part Number" "0402CG101J500NT"
 			(at 334.01 213.36 0)
 			(effects
 				(font
@@ -12749,7 +13264,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C2480"
+		(property "LCSC Part Number" "C2480"
 			(at 302.26 196.85 0)
 			(effects
 				(font
@@ -12758,7 +13273,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SS14"
+		(property "Manufacturing Part Number" "SS14"
 			(at 302.26 196.85 0)
 			(effects
 				(font
@@ -12836,7 +13351,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C440198"
+		(property "LCSC Part Number" "C440198"
 			(at 384.81 193.04 0)
 			(effects
 				(font
@@ -12845,7 +13360,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61H106KE43L"
+		(property "Manufacturing Part Number" "GRM21BR61H106KE43L"
 			(at 384.81 193.04 0)
 			(effects
 				(font
@@ -13053,7 +13568,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C23228"
+		(property "LCSC Part Number" "C23228"
 			(at 359.41 100.33 0)
 			(effects
 				(font
@@ -13062,7 +13577,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF6800T5E"
+		(property "Manufacturing Part Number" "0603WAF6800T5E"
 			(at 359.41 100.33 0)
 			(effects
 				(font

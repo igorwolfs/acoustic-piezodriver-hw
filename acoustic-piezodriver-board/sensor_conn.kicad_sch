@@ -3783,7 +3783,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF1001TCE"
+		(property "LCSC Part Number" "C11702"
 			(at 158.75 220.98 90)
 			(effects
 				(font
@@ -3792,7 +3792,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C11702"
+		(property "Manufacturing Part Number" "0402WGF1001TCE"
 			(at 158.75 220.98 90)
 			(effects
 				(font
@@ -3871,8 +3871,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF1001TCE"
-			(at 81.28 90.17 90)
+		(property "LCSC Part Number" "C11702"
+			(at 81.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,8 +3880,8 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C11702"
-			(at 81.28 90.17 90)
+		(property "Manufacturing Part Number" "0402WGF1001TCE"
+			(at 81.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,8 +3959,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF1001TCE"
-			(at 82.55 49.53 90)
+		(property "LCSC Part Number" "C11702"
+			(at 82.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,8 +3968,8 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C11702"
-			(at 82.55 49.53 90)
+		(property "Manufacturing Part Number" "0402WGF1001TCE"
+			(at 82.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +4046,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C15195"
+		(property "LCSC Part Number" "C15195"
 			(at 73.66 49.53 0)
 			(effects
 				(font
@@ -4055,7 +4055,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B103KB5NNNC"
+		(property "Manufacturing Part Number" "CL05B103KB5NNNC"
 			(at 73.66 49.53 0)
 			(effects
 				(font
@@ -4197,7 +4197,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C124388"
+		(property "LCSC Part Number" "C124388"
 			(at 152.4 101.6 0)
 			(effects
 				(font
@@ -4206,7 +4206,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "B-2100S12P-B110 "
+		(property "Manufacturing Part Number" "B-2100S12P-B110 "
 			(at 152.4 101.6 0)
 			(effects
 				(font
@@ -4321,7 +4321,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C2286"
+		(property "LCSC Part Number" "C2286"
 			(at 82.55 55.88 0)
 			(effects
 				(font
@@ -4330,7 +4330,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KT-0603R "
+		(property "Manufacturing Part Number" "KT-0603R "
 			(at 82.55 55.88 0)
 			(effects
 				(font
@@ -4473,7 +4473,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C15401"
+		(property "LCSC Part Number" "C15401"
 			(at 86.36 203.2 90)
 			(effects
 				(font
@@ -4482,7 +4482,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAJ0103T5E"
+		(property "Manufacturing Part Number" "0603WAJ0103T5E"
 			(at 86.36 203.2 90)
 			(effects
 				(font
@@ -4626,7 +4626,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C16772"
+		(property "LCSC Part Number" "C16772"
 			(at 153.67 173.99 0)
 			(effects
 				(font
@@ -4635,7 +4635,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B224KO5NNNC"
+		(property "Manufacturing Part Number" "CL05B224KO5NNNC"
 			(at 153.67 173.99 0)
 			(effects
 				(font
@@ -4712,7 +4712,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF1001TCE"
+		(property "LCSC Part Number" "C11702"
 			(at 158.75 196.85 90)
 			(effects
 				(font
@@ -4721,7 +4721,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C11702"
+		(property "Manufacturing Part Number" "0402WGF1001TCE"
 			(at 158.75 196.85 90)
 			(effects
 				(font
@@ -4800,8 +4800,8 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C15402"
-			(at 52.07 106.68 90)
+		(property "LCSC Part Number" "C15402"
+			(at 52.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,8 +4809,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAJ0000T5E"
-			(at 52.07 106.68 90)
+		(property "Manufacturing Part Number" "0603WAJ0000T5E"
+			(at 52.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4886,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C25900"
+		(property "LCSC Part Number" "C25900"
 			(at 92.71 74.93 90)
 			(effects
 				(font
@@ -4895,7 +4895,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF4701TCE"
+		(property "Manufacturing Part Number" "0402WGF4701TCE"
 			(at 92.71 74.93 90)
 			(effects
 				(font
@@ -4972,7 +4972,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C15401"
+		(property "LCSC Part Number" "C15401"
 			(at 54.61 115.57 90)
 			(effects
 				(font
@@ -4981,7 +4981,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAJ0103T5E"
+		(property "Manufacturing Part Number" "0603WAJ0103T5E"
 			(at 54.61 115.57 90)
 			(effects
 				(font
@@ -5124,8 +5124,8 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C15402"
-			(at 48.26 55.88 90)
+		(property "LCSC Part Number" "C15402"
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,8 +5133,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAJ0000T5E"
-			(at 48.26 55.88 90)
+		(property "Manufacturing Part Number" "0603WAJ0000T5E"
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5212,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C37593"
+		(property "LCSC Part Number" "C37593"
 			(at 101.6 194.31 0)
 			(effects
 				(font
@@ -5221,7 +5221,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ADS1115IDGSR"
+		(property "Manufacturing Part Number" "ADS1115IDGSR"
 			(at 101.6 194.31 0)
 			(effects
 				(font
@@ -5388,7 +5388,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C15401"
+		(property "LCSC Part Number" "C15401"
 			(at 49.53 72.39 90)
 			(effects
 				(font
@@ -5397,7 +5397,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAJ0103T5E"
+		(property "Manufacturing Part Number" "0603WAJ0103T5E"
 			(at 49.53 72.39 90)
 			(effects
 				(font
@@ -5476,7 +5476,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C16772"
+		(property "LCSC Part Number" "C16772"
 			(at 153.67 200.66 0)
 			(effects
 				(font
@@ -5485,7 +5485,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B224KO5NNNC"
+		(property "Manufacturing Part Number" "CL05B224KO5NNNC"
 			(at 153.67 200.66 0)
 			(effects
 				(font
@@ -5693,7 +5693,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C99269"
+		(property "LCSC Part Number" "C99269"
 			(at 69.85 64.77 0)
 			(effects
 				(font
@@ -5702,7 +5702,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMP102AIDRLR"
+		(property "Manufacturing Part Number" "TMP102AIDRLR"
 			(at 69.85 64.77 0)
 			(effects
 				(font
@@ -5793,7 +5793,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C25765"
+		(property "LCSC Part Number" "C25765"
 			(at 255.27 96.52 0)
 			(effects
 				(font
@@ -5802,7 +5802,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF2002TCE"
+		(property "Manufacturing Part Number" "0402WGF2002TCE"
 			(at 255.27 96.52 0)
 			(effects
 				(font
@@ -6012,7 +6012,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C16772"
+		(property "LCSC Part Number" "C16772"
 			(at 153.67 224.79 0)
 			(effects
 				(font
@@ -6021,7 +6021,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B224KO5NNNC"
+		(property "Manufacturing Part Number" "CL05B224KO5NNNC"
 			(at 153.67 224.79 0)
 			(effects
 				(font
@@ -6303,7 +6303,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C2286"
+		(property "LCSC Part Number" "C2286"
 			(at 81.28 96.52 0)
 			(effects
 				(font
@@ -6312,7 +6312,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KT-0603R "
+		(property "Manufacturing Part Number" "KT-0603R "
 			(at 81.28 96.52 0)
 			(effects
 				(font
@@ -6391,7 +6391,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C4177"
+		(property "LCSC Part Number" "C4177"
 			(at 255.27 107.95 0)
 			(effects
 				(font
@@ -6400,7 +6400,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1801T5E"
+		(property "Manufacturing Part Number" "0603WAF1801T5E"
 			(at 255.27 107.95 0)
 			(effects
 				(font
@@ -6608,7 +6608,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C99269"
+		(property "LCSC Part Number" "C99269"
 			(at 68.58 105.41 0)
 			(effects
 				(font
@@ -6617,7 +6617,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMP102AIDRLR"
+		(property "Manufacturing Part Number" "TMP102AIDRLR"
 			(at 68.58 105.41 0)
 			(effects
 				(font
@@ -6706,7 +6706,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C25900"
+		(property "LCSC Part Number" "C25900"
 			(at 104.14 74.93 90)
 			(effects
 				(font
@@ -6715,7 +6715,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF4701TCE"
+		(property "Manufacturing Part Number" "0402WGF4701TCE"
 			(at 104.14 74.93 90)
 			(effects
 				(font
@@ -6792,7 +6792,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF1001TCE"
+		(property "LCSC Part Number" "C11702"
 			(at 158.75 170.18 90)
 			(effects
 				(font
@@ -6801,7 +6801,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C11702"
+		(property "Manufacturing Part Number" "0402WGF1001TCE"
 			(at 158.75 170.18 90)
 			(effects
 				(font
@@ -6879,7 +6879,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C15195"
+		(property "LCSC Part Number" "C15195"
 			(at 72.39 90.17 0)
 			(effects
 				(font
@@ -6888,7 +6888,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B103KB5NNNC"
+		(property "Manufacturing Part Number" "CL05B103KB5NNNC"
 			(at 72.39 90.17 0)
 			(effects
 				(font
@@ -6967,7 +6967,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 110.49 177.8 0)
 			(effects
 				(font
@@ -6976,7 +6976,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KB54PNC"
+		(property "Manufacturing Part Number" "CL05B104KB54PNC"
 			(at 110.49 177.8 0)
 			(effects
 				(font

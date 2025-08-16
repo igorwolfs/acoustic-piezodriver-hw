@@ -1863,7 +1863,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C28323"
+		(property "LCSC Part Number" "C28323"
 			(at 30.48 149.86 0)
 			(effects
 				(font
@@ -1872,7 +1872,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "Manufacturing Part Number" "CL21B105KBFNNNE"
 			(at 30.48 149.86 0)
 			(effects
 				(font
@@ -1948,7 +1948,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C3684263"
+		(property "LCSC Part Number" "C3684263"
 			(at 83.82 82.55 0)
 			(effects
 				(font
@@ -1957,7 +1957,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMCS1108A3UQDR"
+		(property "Manufacturing Part Number" "TMCS1108A3UQDR"
 			(at 83.82 82.55 0)
 			(effects
 				(font
@@ -2120,8 +2120,8 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C8270"
-			(at 87.63 82.55 0)
+		(property "LCSC Part Number" "C8270"
+			(at 105.41 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +2129,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "WJ128V-5.0-3P "
+		(property "Manufacturing Part Number" "WJ128V-5.0-3P "
 			(at 105.41 82.55 90)
 			(effects
 				(font
@@ -2408,7 +2408,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 27.94 82.55 0)
 			(effects
 				(font
@@ -2417,7 +2417,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KB54PNC"
+		(property "Manufacturing Part Number" "CL05B104KB54PNC"
 			(at 27.94 82.55 0)
 			(effects
 				(font
@@ -2494,7 +2494,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C6186"
+		(property "LCSC Part Number" "C6186"
 			(at 43.18 147.32 0)
 			(effects
 				(font
@@ -2503,7 +2503,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AMS1117-3.3 "
+		(property "Manufacturing Part Number" "AMS1117-3.3 "
 			(at 43.18 147.32 0)
 			(effects
 				(font
@@ -2650,7 +2650,7 @@
 				(hide yes)
 			)
 		)
-		(property "LPN" "C45783"
+		(property "LCSC Part Number" "C45783"
 			(at 53.34 151.13 0)
 			(effects
 				(font
@@ -2659,7 +2659,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MAQNNNE"
+		(property "Manufacturing Part Number" "CL21A226MAQNNNE"
 			(at 53.34 151.13 0)
 			(effects
 				(font

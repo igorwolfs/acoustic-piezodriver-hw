@@ -511,7 +511,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -587,14 +587,14 @@
         },
         {
           "group_by": false,
-          "label": "LPN",
-          "name": "LPN",
+          "label": "LCSC Part Number",
+          "name": "LCSC Part Number",
           "show": true
         },
         {
           "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
+          "label": "Manufacturing Part Number",
+          "name": "Manufacturing Part Number",
           "show": true
         },
         {
@@ -616,7 +616,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "L",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
