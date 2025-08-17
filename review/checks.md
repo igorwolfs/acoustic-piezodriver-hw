@@ -1,4 +1,4 @@
-# Checks
+# Component Checks
 ## I2C bus connection
 - Are all I2C bus signals connected to the output
 
@@ -31,3 +31,9 @@
 ## Switching IC
 10 V sepic
 - Impedance: 39 kOhm
+
+
+# Layout Checks
+## Positioning 
+- Check whether feedback resistors for DC-DC converters are easily replaceable if needed
+- Check if there's measurement points at the input

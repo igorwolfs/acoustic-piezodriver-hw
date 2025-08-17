@@ -2909,7 +2909,7 @@
 		)
 		(uuid "46490ecc-5c56-4e55-a33d-059b5978c229")
 	)
-	(text "DC-DC (SEPIC) VBAT -> 5.5 V (dimensioned for 6 V)\nOnly feedback circuit deviates"
+	(text "DC-DC (SEPIC) VBAT -> 5.5 V (dimensioned for 6 V)\nOnly feedback circuit deviates\nRDIV:\n- 6 V * (2.4 / (2.4 + 9.1))) = 1.25 V"
 		(exclude_from_sim no)
 		(at 280.162 47.244 0)
 		(effects
@@ -6917,7 +6917,7 @@
 		(at 232.41 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "963e8306-b76f-4b8c-a65c-dc74f9040156")
@@ -8303,7 +8303,7 @@
 		(at 298.45 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f1d065f6-226c-43c2-bf0c-92f62679465d")

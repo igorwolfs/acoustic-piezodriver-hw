@@ -3440,13 +3440,14 @@
 		)
 		(uuid ca76252c-faf3-423b-9443-456ca134b526)
 	)
-	(text "DC-DC (Boost) VBAT -> 40 V"
+	(text "DC-DC (Boost) VBAT -> 40 V\n- RDIV: 40 * (1 / 31) = 1.29 V\n- Capacitors here must be able to withstand 50 V\n- Compensation: Check notebook"
 		(exclude_from_sim no)
-		(at 316.484 157.734 0)
+		(at 302.006 148.844 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "189f9f40-9c4a-45f6-be28-1c37436812c1")
 	)
@@ -3473,16 +3474,16 @@
 		)
 		(uuid "6401284b-26a8-494d-98f7-d2e817a6ef33")
 	)
-	(text "Capacitors here must be able to withstand 50 V"
+	(text "FB RDIV:\n- 10 V * (0.68 / (0.68 + 4.7))) = 1.26 V"
 		(exclude_from_sim no)
-		(at 305.054 164.846 0)
+		(at 283.718 116.332 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7766cd43-0900-4c17-8566-9e503453791b")
+		(uuid "6d23cd8e-4d4e-44de-8c4e-da95c620a730")
 	)
 	(text "40V BOOST CONVERTER"
 		(exclude_from_sim no)
@@ -8571,7 +8572,7 @@
 		(at 298.45 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "47bc0615-37db-469d-953b-7b2d595dfd34")
@@ -9462,7 +9463,7 @@
 		(at 292.1 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6337bdcd-2aa3-484c-bd16-7fdd9c35c4a6")
@@ -12519,7 +12520,7 @@
 		(at 349.25 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d47a9203-37e6-46c4-abf8-c3edb3627a18")
@@ -12911,7 +12912,7 @@
 		(at 346.71 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e49fb8a4-0190-4d42-87c9-cc0d3b5845b1")
