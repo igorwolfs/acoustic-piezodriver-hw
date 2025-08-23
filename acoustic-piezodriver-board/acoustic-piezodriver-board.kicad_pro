@@ -508,7 +508,7 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "acoustic-piezodriver-board.cad",
       "idf": "",
       "netlist": "",
       "plot": "production/gerbers/",
