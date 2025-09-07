@@ -1,0 +1,3 @@
+[submodule "piezodriver-board-testcode"]
+	path = piezodriver-board-testcode
+	url = git@github.com:igorwolfs/piezodriver-board-testcode.git
